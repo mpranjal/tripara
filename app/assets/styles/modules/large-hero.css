@@ -1,0 +1,46 @@
+.large-hero{
+	/*border-bottom: 10px solid $mainBlue;*/
+	position: relative;
+
+	&__image {
+		display: block;
+		opacity: .8;
+	}
+
+	&__text-content {
+
+		padding-top: 88px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-65%);
+		left: 0;
+		width: 100%;
+		text-align: center;
+		
+		
+	}
+
+	&__title {
+		font-family: 'Acme', sans-serif;
+		color: $white-text;
+		margin-bottom:  20px;
+		font-size: 60px;
+		
+	}
+
+	
+	&__description {
+		color: $white-text;
+		font-size: 12px;
+		font-weight: 100;
+		text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+		max-width: 30rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 15px;
+	}
+
+}
+
+
+

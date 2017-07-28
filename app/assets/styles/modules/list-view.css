@@ -1,0 +1,83 @@
+.list{	
+		/*background: #efecec;*/
+	.hotel-list-right{		
+		    
+		    display: block;
+		    margin-bottom: 10px;
+		    height: auto;
+		    @mixin bottom-border;
+		   	
+		&:hover{
+		    	transform:scale(.98);
+		    }
+
+		&__image{
+		    width: 45%;
+		    float: left;
+		    margin: 10px 10px 10px 0;
+			padding: 0px 15px;
+			
+			display: inline-block;
+		}
+
+		&__details{
+		 	
+		    padding: 10px 15px;
+		    color: $grey-text;
+		}
+		
+		&__title{
+			vertical-align: text-bottom;
+			font-weight: 500;	
+			font-size: 30px;
+			margin-bottom: 10px;
+			display: block;
+				
+		}
+		
+		
+		&__reviews{
+			font-size: 18px;
+			font-weight: 400;
+			float: right;
+			right: 30px;
+			top: -50px;	
+			position: relative;
+			max-width: 10px;
+			text-align: center;
+			font-weight: bold;
+		}
+		&__reviews-in-num{
+			margin-top: 0;
+			font-size: 35px;
+		
+		}
+		&__description{
+			margin-top: 15px;
+			font-style: italic;
+			font-weight: 500;
+			
+			 a{
+				color: $description-link;
+				font-weight: 600;
+			}
+		}
+
+
+		&__offerings{
+			display: inline-flex;
+
+			img{
+				position: relative;
+				width: 80%;
+				float: right;
+				left: 70px;
+				margin-top: 5px;	
+			}
+		}
+		
+		@mixin clearfix;	
+	}
+}
+
+

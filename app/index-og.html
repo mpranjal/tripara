@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Trifara</title>
+
+  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
+  <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+  <!-- build:css assets/styles/styles.css -->
+  <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+  <!-- endbuild -->
+
+  <!-- build:js assets/scripts/Vendor.js -->
+  <!-- <script src="/temp/scripts/Vendor.js"></script> -->
+  <!-- endbuild -->
+  
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+<style>
+  /*body{
+    font-family: 'Acme', sans-serif;
+  }*/
+</style>
+</head>
+<body>
+  <div class="large-hero">
+    <picture>
+      <source srcset="assets/images/search-bg-image.jpg" media="(min-width: 1500px)">
+      <source srcset="assets/images/search-bg-image-medium.jpg" media="(min-width: 980px)">
+      <img src="assets/images/search-bg-image-small.jpg" class="large-hero__image">
+    </picture>
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title">Find your perfect trip</h1>
+        <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.loreum ipsum text is here read</p>
+        <form method="post" action="search.php">
+          <input autocomplete="off" type="text" name="txtsearch" placeholder="&#xf041; &nbsp;&nbsp;Destination, Tours, Hotels, Adddress &nbsp;&nbsp;&nbsp;&nbsp;Journey Date | Person " class="input-text" onkeydown="searchq();" onkeyup="clear();">
+          <a href="javascript:" class="btn">Search now</a>
+        </form>
+        <div id="output" style="color: white; background: #000;  position: absolute; overflow: auto" >
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/js/search.js"></script>
+
+</body>
+</html>

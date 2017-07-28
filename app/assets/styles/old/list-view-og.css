@@ -1,0 +1,84 @@
+.hotel-list-right{
+	
+	&:hover{
+	    	transform:scale(.98);
+	    }
+
+	&__image{
+	    position: relative;
+	    width: 32.99%;
+	    float: left;
+	    display: inline-block;
+	    margin: 20px 20px;
+		
+	    /*img:hover{
+			transform:scale(1.1);
+	    }*/
+	}
+
+	&__details{
+	    width: 53.99%;
+	    /*float: left;*/
+	    color: $grey-text;
+	}
+	&__heading{
+		/*width: 50%;*/
+		float: left;
+		/*display: inline-block;*/
+		@mixin clearfix;
+	}
+	&__title{
+		vertical-align: middle;
+		font-weight: 500;	
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	&__starings{
+		color: $main-green;
+	}
+	&__review{
+	
+		float: right;
+		position: relative;
+		top: 10px;
+		margin-bottom: 18px;
+		right: -20px;
+		text-align: center;
+	}
+	&__review-in-words{
+		margin-bottom: 0;
+		font-size: 20px;
+		font-weight: 400;
+		padding: 0;
+	}
+	&__review-in-numbers{
+		font-size: 40px;
+		text-align: center;
+		font-weight: 600;
+	}
+	&__description{
+		font-style: italic;
+		font-weight: 500;
+		@mixin clearfix;
+
+		 a{
+			color: $description-link;
+			font-weight: 600;
+		}
+	}
+	
+	&__price-details{
+
+		&  i{
+			font-style: normal;
+			font-weight: 200;
+		}
+
+	}
+	
+}
+.cost{
+	font-size: 25px;
+	font-weight: 600;
+	color: $main-green;
+}

@@ -1,0 +1,22 @@
+.left-main{
+	
+
+	&__title{
+		
+		padding: 18px 26px;
+		color: white;
+		background-color: black;
+		font-style: oblique;
+		font-size: 18px;
+		font-weight: 700;
+		text-shadow: 2px 2px 2px rgba(white,.5);
+
+		&::first-letter{
+			text-transform:uppercase;
+		}
+	}
+}
+
+.green{
+	color: $main-green;
+}

@@ -1,0 +1,51 @@
+/*@font-face {
+font-family: 'FontAwesome';
+src: url('../../font-awesome/fonts/fontawesome-webfont.eot');
+src: url('../../font-awesome/fonts/fontawesome-webfont.ttf') format('embedded-opentype'),
+    url('../../font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+    url('../../font-awesome/fonts/fontawesome-webfont.woff2') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+*/
+
+
+body{
+	font-family: "Segoe UI", Roboto,  sans-serif;
+	font-family: "Lato",  sans-serif;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+input[type="text"]:focus{
+	outline: none;
+}
+
+input { font-family: 'FontAwesome'; }
+
+
+
+.left-border{
+	border-left: 1px dashed #ccc;
+
+}
+.inline-block{
+	display: inline-block;
+}
+
+.bottom-border{
+	border-bottom: 1px dashed #ccc;
+	}

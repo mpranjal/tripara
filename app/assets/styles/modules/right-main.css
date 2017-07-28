@@ -1,0 +1,91 @@
+.right-main{
+	position: relative;
+	background-color: #f5f5f5;
+	/*overflow: hidden;*/
+	
+	&__breadcrumb{
+		display: inline-block;
+	}
+	
+	a{
+		color: $description-link;
+		font-weight: 600;
+		font-family: serif;
+		text-transform: capitalize;
+		font-style: italic;
+	}
+
+	&__sort-by{
+		/*margin-left: 10px;*/
+		padding-bottom: 11px;
+		position: relative;
+		top: -5px;
+		color: #161B21;
+		
+	}
+
+	&__utility-icon{
+		float: right;
+		line-height: 25px;
+		font-size: 20px;
+		margin-right: 10px;
+		& > button{
+			background-color: rgba(226, 219, 219, 0);
+			/*outline: none;*/
+			border:0;
+			outline: none;
+		}
+	}
+
+	&--contact{
+		float: right;
+		margin-right: 10px;
+		margin-top: 10px;
+		color: $cost-text; 
+		font-weight: 600;
+		font-style: italic;
+		font-size: 14px;
+		
+		
+		.contact-number{
+			font-weight: 700;
+			font-size: 17px;
+			color: $grey-text;
+		}
+	}
+}
+
+/*Nav menuv on hotel-list page*/
+
+ul.nav.nav-pills {
+    position: absolute;
+    top: -40px;
+}
+
+.nav-pills > li.active > a,
+    .nav-pills > li.active > a:hover,
+    .nav-pills > li.active > a:focus {
+      color: black;
+      background-color: $white-grey;
+    }
+
+.nav > li {
+  position: relative;
+  display: block;
+ background-color: $main-green;
+ color: #fff;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: white;
+}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  /*text-decoration: none;*/
+  background-color: transparent;
+}

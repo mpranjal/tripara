@@ -1,0 +1,157 @@
+.hotel-list-left{
+	
+	.hotel-list-right__starings{
+		color: $main-green;
+	}
+
+	&--section1{
+
+		margin-top: 25px;
+
+		.destination{
+			color:$dark-green;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 1.5px;
+		}
+		.country{
+			color: #B5B9B8;
+		}
+		.dashed{
+		border-bottom: 1px dashed $dashed-border-color;
+		}
+		.check-in-out{
+			
+			input[type="text"]
+			{
+				color: black;
+				width: 100px;
+				height: 35px;
+				padding-left: 5px;
+				border:0;
+				border-bottom: 1px dashed $dashed-border-color;
+				margin-right: 20px;
+				cursor: pointer;
+
+
+				&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    				color:    $shy-green;
+				}
+				:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+				   color:    $shy-green;
+				   opacity:  1;
+				}
+				::-moz-placeholder { /* Mozilla Firefox 19+ */
+				  color:    $shy-green;
+				   opacity:  1;
+				}
+				:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				  color:    $shy-green;
+				}
+				::-ms-input-placeholder { /* Microsoft Edge */
+				   color:    $shy-green;
+				}
+			}
+		}
+				
+	}
+	
+	&--section2{
+		h3{
+			font-weight: 900;
+		}
+
+		.narrow-your-search{
+			margin-top: 18px;
+			border:1px solid $shy-grey;
+			width: 235px;
+			margin-left: auto;
+			margin-right: auto;
+
+			input[type="text"]{
+				height: 40px;
+				border:0;
+				padding-left: 23px;
+				color: $grey-text;
+				/*border-right: 2px solid $shy-grey;*/
+
+			}
+
+			a{
+				border-left: 2px solid $shy-grey;
+				padding-left: 10px;
+				font-size: 18px;
+				line-height: 1.5;
+				color: $dark-green;
+			}
+		}
+	}
+	
+	&--section{
+
+		.headline-small{
+			font-weight: 900;
+			margin-bottom: 6px;
+		}
+
+		ul li input[type="checkbox"]{
+			transform: scale(1.5);
+			margin-right:11px; 
+		}
+
+		strong{
+			padding-left: 5px;
+		}
+		.number{
+			float: right;
+			padding-right: 25px;
+			font-size: 16px;
+		}
+	}
+
+	&--section-price{
+		
+		.slider-container{
+			margin-bottom: 55px;
+
+			.slider-indicator{
+				position: relative;
+				top: 23px;
+				color: $grey-text;
+
+				.max{
+					float: right;
+				}
+			}
+		}
+	}
+
+	&--section-scollable{
+		 ul{
+		 	padding-left: 15px;
+			height: 200px;
+			overflow:hidden; 
+			overflow-y:scroll;
+		}
+	}
+}
+
+section ul{
+	padding: 0;
+}
+section ul li{
+	list-style: none;
+	margin:0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+
+.hr-bottom{
+	width: 243px;
+	padding: 0;
+	margin: 0;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	border: 1px solid $white-grey;
+}

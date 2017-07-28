@@ -1,0 +1,67 @@
+.h-carousel{
+	height: 600px;
+	overflow: hidden;
+	background: $main-green;
+	position: relative;
+	&--slideshow {
+	    height: 100%;
+	    width: 100%;
+
+	    img {
+	            height: 100%;
+	            width: 100%;
+	        }
+	}
+
+	&--pager{
+		text-align: center;
+		height: 120px;
+		width: 100%;
+		position: absolute;
+		bottom: 5%;
+		background: rgba(0,0,0,.5);
+		z-index: 1000;
+		opacity: 0;
+		transition: all 0.3s ease-in-out 0s;
+
+		&:hover {
+		   opacity: 1;
+		} 
+
+		img {
+		margin: 10px 5px;
+		opacity:0.3;
+		transition:all .3s ease-in-out 0s;
+
+			&:hover {
+				opacity:1;
+				transform:scale(1.05);
+				z-index:100;
+			}
+		}
+	}
+
+	&--prev{
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+    }
+
+    &--next {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right:0;
+        margin: auto 10px;
+      	z-index: 1000;
+    }
+
+
+}

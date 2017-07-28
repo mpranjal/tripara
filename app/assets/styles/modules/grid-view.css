@@ -1,0 +1,109 @@
+.grid{
+
+	.hotel-list-right{		
+		    background: #f2f2f2;
+		    display: inline-block;
+		    margin-bottom: 10px;
+
+		   
+		&:hover{
+		    	transform:scale(.98);
+		    }
+
+		&__image{
+		    /*margin-bottom: 5px;*/
+		    width: 100%;
+	   		margin: 10px 10px 5px 0;
+			padding: 0 15px;
+		}
+
+		&__details{
+		    width: 100%;
+		    padding: 0 15px;
+		}
+		&__heading{
+			
+		}
+		&__title{
+			vertical-align: text-bottom;
+			font-weight: 700;	
+			font-size: 20px;
+			margin-bottom: 10px;
+			display: block;
+				
+		}
+		&__starings{
+			color: $main-green
+		}
+		
+		&__reviews{
+			float: right;
+			font-weight: bold;
+		}
+		&__reviews-in-num{
+			margin-left:  4px;
+			margin-right: 4px;
+			font-size: 20px;
+			line-height: 0;
+		}
+		&__description{
+			display: none;
+		}
+
+
+		
+
+		&__offerings{
+			display: inline-flex;
+
+			img{
+				position: relative;
+				width: 80%;
+				float: right;
+				margin-top: 5px;	
+			}
+		}
+		
+			
+	}
+}
+
+
+.portfolio{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    .img-thumbnail {
+        display: inline-block;
+         max-width: 100%; 
+         height: auto;
+         padding: 0px; 
+         margin: 0;
+         line-height: 0; 
+         border: none; 
+         border-radius: 0; 
+         /*overflow: hidden;*/
+         
+    }
+
+    img {
+         max-width: none; 
+        height: auto;
+    }
+
+    .span-2
+      {
+          height: 685px;
+          /*width: 100%;*/
+      }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        position: none;
+        min-height: none;
+        padding-right: 0;
+        padding-left: 0;
+      }
+}

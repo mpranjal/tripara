@@ -1,0 +1,67 @@
+@import 'base/global';
+@import 'base/header';
+
+/*@font-face {
+font-family: 'FontAwesome';
+src: url(assets/font-awesome/fonts/fontawesome-webfont.eot');
+src: url('assets/font-awesome/fonts/fontawesome-webfont.ttf') format('embedded-opentype'),
+     url('/assets/font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+     url('/assets/font-awesome/fonts/fontawesome-webfont.woff2') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+body{
+	font-family: "Times New Roman", Times serif;
+}
+img {
+width: 100%;
+height: auto;
+}*/
+
+/*.search-bar input[type="text"] {
+    position: relative;
+    background-color: #1b1919;
+    opacity: 0.6;
+    color: white;
+    height: 35px;
+    width: 600px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+input { font-family: 'FontAwesome'; }*/ /* This is for the placeholder */
+
+/*a.btn.btn-search {
+    background-color: #27a8ff;
+    width: 113px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    color: white;
+}
+
+.search-box-title{
+	text-align: center;
+	color:white;
+	font-weight:  200%;
+}
+.search-box-description{
+	text-align: center;
+	margin-left: 150px;
+	margin-right:150px;
+	color: white;
+	margin-bottom: 10px;
+
+}
+
+.search-bar-block{
+	position: relative;	
+	left: 20%;
+	right: 25%;
+}
+
+.search-box-container{
+	transform: translateY(-350%);
+}*/
+

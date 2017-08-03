@@ -1,181 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <title>Trifara</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
-  <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
-  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-
-  <!-- build:css assets/styles/styles.css -->
-  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
-
-  <!-- endbuild -->
-
-  <!-- build:js assets/scripts/Vendor.js -->
-  <!-- <script src="/temp/scripts/Vendor.js"></script> -->
-  <!-- endbuild -->
-  
-  <script type="text/javascript" src="assets/js/jquery.js"></script>
- 
+    <title>Tripara</title>
+    <!-- Custom Google Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="temp/styles/styles.css" rel="stylesheet">
 </head>
-<body>
+
+<body style="background: #ccc; overflow-x: hidden;">
   <div class="large-hero">
     <picture>
-      <source srcset="assets/images/search-bg-image.jpg" media="(min-width: 1500px)">
-      <source srcset="assets/images/search-bg-image-medium.jpg" media="(min-width: 980px)">
-      <img src="assets/images/search-bg-image-small.jpg" class="large-hero__image">
+      <img src="assets/images/search-bg-image-medium.jpg" class="large-hero__image">
     </picture>
+
     <div class="large-hero__text-content">
       <div class="wrapper">
 
         <h1 class="large-hero__title">Find your perfect trip</h1>
         <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.loreum ipsum text is here read</p>
-
-        <form method="post" action="search.php">
-          <input autocomplete="off" type="text" name="txtsearch" placeholder="&#xf041; &nbsp;&nbsp;Destination, Tours, Hotels, Adddress &nbsp;&nbsp;&nbsp;&nbsp;Journey Date | Person " class="input-text" onkeydown="searchq();" onkeyup="clear();">
-          <a href="javascript:" class="button">Search now</a>
-        </form>
-
-        <div id="output" style="color: white; background: #000;  position: absolute; overflow: auto" ></div>
+       
+        <div class="filters m-t">
         
-        <form action="" class="form-inline package_choice" style="margin-top: 20px;color: white;" >
+          <input id="destination" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Destination" >
+
+          <span class="check-in-out" >      
+              <input id="start-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check in &nbsp;&nbsp;&nbsp;&nbsp; &#xf073;">
+              <input id="end-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check out &nbsp;&nbsp;&nbsp;  &#xf073;">
+          </span>
+
+          <input id="passengertype" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Passengers">
+
+          <button class="btn btn-search btn-search-round"> Search</button>
+          <form action="" class="form-inline package_choice" style="margin-bottom: 0px;color: white;" >
 
           <input id="r1" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
           <input id="r2" type="radio" name="package_choice_radio" value="fhc">&nbsp;<label for="r2">FLIGHT + HOTEL + CAR</label>&nbsp;&nbsp;
           <input id="r3" type="radio" name="package_choice_radio" value="hc">&nbsp;<label for="r3">HOTEL + CAR</label>
-        </form>
+          </form>
+        </div>
+        
+        <div class="filterBox">
+
+          <div id="location" class="filterBoxChild location-from" >
+            <ul class="list-unstyled filterBoxList liststylehover">
+              <h4 class="filterBoxList-item filterBoxList-item-title">Top cities</h4>
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li> 
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">Mumbai, India</span><span class="filterBoxList-cntry">MUM<span></span></span></p>
+                </div>
+              </li>
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li>
+              
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div id="passenger" class="filterBoxChild passenger" >
+
+            <div class=" filterBoxList passenger-list">
+
+              <section  class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Adult </span><small class="text-muted text-small">(+12yrs)</small></lspan>
+                <ul  class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                  <li>7</li>
+                  <li>8</li>
+                  <li>9</li>
+                </ul>
+              </section>
+
+              <section class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Children with gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+                
+              <section class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Children without gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+
+              <section class="filterBoxList-item ">
+                <span class="filterBoxList-item-title">Infants </span><small class="text-muted text-small">(0-2 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+              
+              <button class="btn-search btn-search-xsmall">Done</button> 
+            </div>
+          </div>
+        </div>  
+      </div> 
+
       </div>
-    
-    </div>
-  </div>
-<!-- Main larhe-hero ends -->
-  <div class="offers-wrapper">
-    <div class="offers">
-      <small class="offers--">SPECIAL OFFERS</small>
-      <h1>Top Destinations</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <ul>
-        <li><a href="">Europe(563)</a></li>
-        <li><a href="">Asia(253)</a></li>
-        <li><a href="">Oceania(18)</a></li>
-        <li><a href="">Africa(13)</a></li>
-        <li><a href="">North America(45)</a></li>
-        <li><a href="">South America(18)</a></li>
-      </ul>
-
-      <button class="btn btn-primary">CHECK ALL DESTINATION</button>
-    </div>
-  </div>
-  <div class="portfolio">
-    <div class="row">
-  
-        
-        <!-- item -->
-        <div class="col-lg-6 col-xs-6 col-sm-3" >
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/wide-lg.png">
-                </div>
-            </div>
-        </div>
-            
-        <!-- item -->
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg1.jpg">
-                </div>
-            </div>
-        </div>
-            
-        <!-- item -->
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg2.jpg"> 
-                </div>
-            </div>
-        </div>
-            
-        <!-- item -->
-        <div class="col-lg-6 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/wide-lg.png">
-                </div>
-            </div>
-        </div>
-            
-        <!-- item -->
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg3.jpg">
-                </div>
-            </div>
-        </div>
-            
-        <!-- item -->
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg4.jpg"> 
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg5.jpg"> 
-                   <img src="assets/images/dimg6.jpg">
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-xs-6 col-sm-3 span-2">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/espresso.jpg" height="835"> 
-                </div>
-            </div>
-        </div>
-
-        <!-- item -->
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg1.jpg"> 
-                   <img src="assets/images/wide-lg.png">
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-3 col-xs-6 col-sm-3">
-            <div class="img-thumbnail">
-                <div class="img-responsive">
-                   <img src="assets/images/dimg5.jpg">
-                </div>
-            </div>
-        </div>
-
-        
     </div>
   </div>
 
-  
-  <script src="assets/js/search.js"></script>
 
-</body>
+<!-- <span class="overlayWrapper"></span> -->
+
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="temp/scripts/App.js"></script>
+
+
+</body> 
 </html>

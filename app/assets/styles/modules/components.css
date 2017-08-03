@@ -35,6 +35,7 @@
     margin-top: 12px;
     margin-bottom: 12px;
 
+
     &--large{
         padding: 10px 16px;
         line-height: 1.3333333;
@@ -43,6 +44,41 @@
         font-size: 20px;
         font-weight: 100;   
         font-family: "Acme", sans-serif;
+    }
+
+    &-round{
+        border-radius: 25px;
+        background-color:$main-blue;
+        outline: none;
+        border: none;
+
+        &:hover{
+            background-color:$main-green;
+        }
+    }
+
+    &-xsmall{
+        
+        position: relative;
+        top: -10px;
+        width: 50px;
+        height: 25px;
+        padding: 2px;
+        font-weight: 200;
+        margin-top: 0px;
+        margin-right: 10px;
+        float: right;
+        margin-bottom: 10px;
+        background-color: $main-blue ;
+
+        &:active{
+            border:0;
+            outline: none;
+        }
+        &:focus{
+            border:0;
+            outline: none;
+        }
     }
 }
 
@@ -147,7 +183,6 @@
 }
 
 .ib{
-    vertical-align: top;
     display: inline-block;
 }
 
@@ -194,5 +229,29 @@
 
 .ctext{
     color: $hr-page;
+}
+
+.textbox{
+    width: 100px;
+    height: 35px;
+    padding-left: 5px;
+    border:0;
+    border-bottom: 1px dashed $dashed-border-color;
+    margin-right: 20px;
+    cursor: pointer;
+
+    &-large{
+        width: 150px;
+        opacity: .7;
+
+        &-bg-grey{
+            /*background-color: #8180A0;*/
+        }
+    }
+
+    &-round{
+        border-radius: 25px;
+        padding-left: 15px;
+    }
 }
 

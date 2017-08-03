@@ -1,11 +1,16 @@
 var Person = require("./modules/Person");
-// var jquery-cycle = require("./modules/JqueryCycle");
 var GLV = require("./modules/gridlistview");
 var Functions = require("./modules/Functions");
 var jqueryUI = require("./vendors/jqueryUI");
 var Bootstrap = require("./vendors/Bootstrap");
+var test = require("./test");
+var DatePick = require("./modules/DatePick");
+var FilterList = require("./modules/FilterList");
 
-// var jqueryCycle = new JqueryCycle();
+
+var filterList = new FilterList();
+var datepick = new DatePick();
+var test = new test();
 var bs = new Bootstrap();
 var jui = new jqueryUI();
 var functions = new Functions();

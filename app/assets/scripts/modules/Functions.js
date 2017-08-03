@@ -1,11 +1,20 @@
 var $ = require('jquery');
-// var autocomplete = require( "jquery-ui/ui/widgets/slider" );
+
+
 
 function Functions() {
 
 	$(function(){
-		$('.check').datepicker();	
-	});
+		var viewportHeight = $("body").innerHeight();
+		$('.large-hero__image').css("height",  viewportHeight+ 'px');
+    });
+
+	$(function(){
+		$('.check').datepicker({
+			dateFormat: ' d MM yy'
+		});
+		
+    });
 
 	$(function() {
 			$('.range-slider').slider({
@@ -30,7 +39,26 @@ function Functions() {
 			value:6.5
 			// animate: false;
 		});
+
 	});
+
+   $(function(){
+
+	   $("#advSearchBtn").click(function(){
+	       if($(this).html() == "-"){
+	           $(this).html("+");
+	           $(".showBox").hide();
+	          }
+	       else{
+	           $(this).html("-");
+	           $(".showBox").show();
+	       }
+	      
+
+	   });
+
+   })
+
 }
 
 module.exports = Functions;

@@ -6,502 +6,53 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hotel list</title>
-
-
-    <link rel="stylesheet" href="assets/scripts/modules/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.css">
-
+    <title>Tripara</title>
     <!-- Custom Google Web Font -->
-    
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <!-- Add custom CSS here -->
     <link href="temp/styles/styles.css" rel="stylesheet">
-
-
 </head>
-<body>
 
-<div class="hotel-list-hero">
-    <picture>
-      <img src="assets/images/hotel-list-small.png" width="100%" height="320">
-    </picture>
-</div>
+<body style="background: #ccc">
 
-<div class="container master-wrapper">
-<!-- common to all page -->
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-9 wrapper-padding-zero col-lg-offset-3">
-           <ul class="nav nav-pills">
-               <li class="active"><a data-toggle="pill" href="#Shimla">Shimla</a></li>
-               <li><a data-toggle="pill" href="#Manali">Manali</a></li>
-               <li><a data-toggle="pill" href="#menu2">Some place</a></li>
-           </ul> 
+  <div class="box">
+  <picture>
+        <source srcset="assets/images/search-bg-image.jpg" media="(min-width: 1500px)">
+        <source srcset="assets/images/login-page-bg.jpg" media="(min-width: 980px)">
+        <img src="assets/images/login-page-bg.jpg" class="large-hero__image">
+      </picture>
+    <form>
 
-           <div class="right-main ">
-               <ol class="breadcrumb right-main__breadcrumb bottom-border m-b">
-                   <li><a href="javascript:"><span class="glyphicon glyphicon-home"></span></a></li>
-                   <li><a href="javascript:">Hotels</a></li>           
-                   <li><a href="javascript:">himachal</a></li>
-                   <li><a href="javascript:">shimla</a></li>
-               </ol>
-               <span class="right-main--contact">Got a qestion?<strong class="contact-number">123-123-1234</strong></span>
-           </div>
-       </div>              
-     </div> 
-   </div>  
-<!--  -->
-
-    <div class="container">
-      <div class="row  wrap" style="background: #f2f2f2; ">
-        <div class="col-lg-6">
-          <div class="h-details">
-              <h1 class="h-details--hname" >Grand Plaza Appartments</h1>
-              <span class="starings">
-                  <i class=" glyphicon glyphicon-star"></i>
-                  <i class=" glyphicon glyphicon-star"></i>
-                  <i class=" glyphicon glyphicon-star"></i>
-                  <i class=" glyphicon glyphicon-star"></i>
-                  <i class=" glyphicon glyphicon-star"></i>    
-              </span>
-              <i>some address, some address</i> 
-          </div>
-        </div>
-        <div class="col-lg-6">
-           <span class="cost-detail">From-<span class="cost cost--large">$345</span>/night&nbsp;&nbsp;<button class="btn-search btn-search--large">Book Now</button> </span>
-        </div>
+      <div>secure login</div>
+      <div class="input_control">
+          <input type="text" id="inputName"  placeholder="Your Name">
+          <label for="inputName"><i class="icon-user icon-3x"></i></label>
       </div>
-    </div>
-  <!-- h carousel -->
-    <div class="container" style="margin-top: 25px;">
-      <div class="row">
-        <div class="component h-carousel">
-          <div id="carousel" class="owl-carousel main-carousel">
-            <div class="item">
-              <img src="assets/images/search-bg-image.jpg" alt="" class="image" />
-            </div>
-            <div class="item">
-              <img src="assets/images/search-bg-image-medium.jpg" alt="" class="image" />
-            </div>
-          </div>
-          <div class="thumbnails-wrapper">
-            <div class="collapse-button">
-              <div class="icon"></div>
-            </div>
-            <div class="counter">
-              <span class="current-item"></span>
-              <span class="max-items"></span>
-            </div>
-            <div id="thumbnails" class="owl-carousel">
-              <div class="item">
-                <img src="assets/images/search-bg-image.jpg" alt="" class="image" />
-              </div>
-              <div class="item">
-                <img src="assets/images/search-bg-image-medium.jpg" alt="" class="image" />
-              </div>         
-            </div>
-          </div>
-        </div>
+      <!-- <div class="input_control">
+          <input type="text" id="inputEmail"  placeholder="Your Email">
+          <label for="inputName"><i class="icon-envelope icon-3x"></i></label>
+      </div> -->
+      <div class="input_control">
+          <input type="password" id="inputPassword"  placeholder="******">
+          <label for="inputName"><i class="icon-asterisk icon-3x"></i></label>
       </div>
-    </div>
-  <!-- carousel ends -->
-
-  <!-- hrv-main-container -->
-    <div class="container">
-      <div class="row ">
-        <div class="col-lg-3 ">
-          <div class="h-review">
-            <h1 class="h-details--hname h-details--hname-green bottom-border ">Fantastic</h1>
-            <div class="row">
-
-              <div class="col-lg-6 box-1 b-d-r" >
-                <h1 class="cblack">95%</h1>member <br>recomended <br><a href="">Read 36 reviews</a>
-              </div>
-
-              <div class="col-lg-6 box-2"><br>
-                <img src="assets/images/icons/owl.png" width="50" ><br>
-                <span class="starings">
-                    <i class=" glyphicon glyphicon-star"></i>
-                    <i class=" glyphicon glyphicon-star"></i>
-                    <i class=" glyphicon glyphicon-star"></i>
-                    <i class=" glyphicon glyphicon-star"></i>
-                    <i class="fa fa-star-half-o" ></i>  
-                </span><br>
-                <i>4.5, very good</i><br><a href="">145 reviews</a>
-              </div>
-            </div>
-
-            <hr style="border: 2px solid black; width: 90%">
-
-            <p class="para-quotes"> 
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .
-            </p><cite><strong class="cblack">Daniel Brown</strong> -Swedan, 28/3/2013</cite>
-          </div>
-        </div>
-
-
-        <div class="col-lg-9">
-          <!--room types tabel -->
-            <div class="table-responsive">
-              <table class="tabel h-roomtabel">
-                <thead class="table-head h-roomtabel--head">
-                  <tr>
-                    <th class="col-lg-3 h-roomtabel--head-title">Room Types</th>
-                    <th class="col-lg-3 h-roomtabel--head-title">&nbsp;</th>
-                    <th class="col-lg-2 h-roomtabel--head-title">Rate(/night)</th>
-                    <th class="col-lg-2 h-roomtabel--head-title">No. Rooms</th>
-                  </tr>
-                </thead>
-                <tbody class="h-roomtabel--body">
-                  <tr>
-                    <td class="col-lg-3">
-                          <img src="assets/images/side-image.png" height="100" width="170">
-                    </td>
-                    <td class="col-lg-3">
-                            <h4>Hotel name</h4>
-                            <p>horel description blah blah blah <a href="">more to read</a></p>
-                    </td>
-                    <td class="col-lg-2">
-                      <p class="cost cost-blackSmall">$345/night</p>
-                    </td>
-                    <td class="col-lg-2">
-                      <select class="h-select h-select--blackSmall" name="" id="">
-                        <option value="">
-                          1 room
-                        </option>
-                      </select>
-                    </td>
-                    <td class="col-lg-2">
-                      <button class="btn-search">Book</button>
-                    </td>
-                  </tr>
-                </tbody>
-                
-              </table>
-            </div>
-          <!-- tabel end -->
-        </div>
+      <div>
+        <button type="submit" class="btn">LOGIN <i class="icon-key"></i></button>
       </div>
-    </div> 
-
-    <div class="container">
-      <div class="row wrap">
-        <div class="col-lg-3">
-          <ul class="list-unstyled h-feature">
-            <li>
-              <a href=""><h3 class="h-feature--title">Features</h3></a>
-            </li>
-            <li>
-            <a href=""><hr style="border:2px solid black; width: 10%;margin-left: 0"></a>
-              </li>
-            <li>
-              <a href=""><h3>Check Rates & Availability</h3></a>
-            </li>
-            <li>
-              <a href=""><h3>About Area</h3></a>
-            </li>
-            <li>
-              <a href=""><h3>Details & Policies</h3></a>
-            </li>
-            <li>
-              <a href=""><h3>Reviews</h3></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-9">  
-          <!-- facilities tabel -->
-            <div>
-                <h3>Facilities</h3>
-                <table class="table">
-                  <tbody>
-                  <!-- fac-row-1 -->
-                    <tr>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                  <!-- fac-row2 -->
-                    <tr>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                  <!-- fac-row-3 -->
-                    <tr>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                  <!-- fac-row-4 -->
-                    <tr>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-                        <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
-                          <div class="tick">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
-
-          <!-- Language Spoken -->
-            <div>
-              <h3>Language Spoken</h3>
-              <table class="table">
-                <tbody>
-                  <!-- fac-row-1 -->
-                    <tr>
-                      <td class="col-lg-4">
-                        <div class="checkimagebox">
-                          <div class="tick tick--center">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <div class="tick tick--center">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <div class="tick tick--center">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                  <!-- fac-row-2 -->
-                    <tr>
-                      <td class="col-lg-4">
-                        <div class="checkimagebox">
-                          <div class="tick tick--center">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                      <td class="col-lg-4">
-
-                        <div class="checkimagebox">
-                          <div class="tick tick--center">&check;</div>
-                        </div>
-                        <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          <!-- Memeber Review -->
-            <div class="h-member-review">
-              <h2 class="h-member-review--title">Member reviews</h2> 
-              <hr>
-              <!-- custom tabel  -->
-                <div class="t">
-                  <div class="t-r">
-                    <div class="t-c-4">
-                      <ul class="list-unstyled h-member-review--bars h-member-review--bars-title">
-                          <li>&nbsp;</li>
-                          <li>Value for money</li>
-                          <li>Location</li>
-                          <li>Staff Performance</li>  
-                          <li>Hotel Condition/ Cleanliness</li> 
-                          <li>Room Comfort/Standard</li> 
-                          <li>Food/Dining</li>
-                      </ul>
-                    </div>
-                    <div class="t-c-6">
-                      <ul class="list-unstyled h-member-review--bars">
-                        <li>
-                          <ul class="list-unstyled h-member-review--bars-range">
-                            <li>0</li>
-                            <li>2</li>
-                            <li>4</li>
-                            <li>6</li>
-                            <li>8</li>
-                            <li>10</li>
-                          </ul>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slider ui-slider state-disabled ">
-                            <div class="ui-slider-horizontal slider-horizontal">
-                               <div class="ui-slider-handle slider-handle">7.5</div>
-                            </div>   
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="t-c-4">
-                      <h1>Fantastic 8.5 <small>from 145 reviews</small></h1>
-                      <hr style="border-style: dashed; width: 100%; margin: 0;">
-                      <h1>95% <small>recommended</small></h1>
-                    </div>       
-                  </div>
-                </div>
-              
-              <div class="h-member-review--all">
-                <h4 class="h-member-review--all-title">All reviews(365)</h4>
-                <hr style="border-style: dashed; width: 100%;margin: 0;">
-
-                <div class="row bottom-border">
-
-                  <div class="col-lg-3">
-                    <div class="h-member-review--all-lcontent">
-                      <h1 class="circle circle-lg">5.6</h1>
-                      <p><strong class="cblack">A Person </strong><br>from london, UK, 3/2/2014</p>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-9">
-                    <div class="h-member-review--all-rcontent">
-                      
-                      <ul class="list-unstyled">
-                        <li><h6 class="circle circle-sm circle-sm--green ib">+</h6><label class="cblack">Location, warmth, cleanliness</label></li>
-                        <li><h6 class="circle circle-sm circle-sm--red ib">-</h6><label class="cblack">Noisy, expensive</label></li>
-                      </ul>
-
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-
-            </div>
-        </div>
-      </div>
-    </div>
-  <!-- hrv main end -->
-
-</div>
- 
+      <p><a href="#">Lost Your Password?</a></p>
+    </form>
+  </div>
 
 
 
 
-<script type="text/javascript" src="assets/scripts/modules/jquery.js"></script>
-<script type="text/javascript" src="assets/scripts/modules/jquery-ui/jquery-ui.js"></script>
-<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 <script src="temp/scripts/App.js"></script>
-<script src="assets/scripts/test.js"></script>
-</body>
+
+
+</body> 
 </html>

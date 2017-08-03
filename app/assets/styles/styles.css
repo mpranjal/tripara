@@ -8,6 +8,7 @@
 /*@import '../font-awesome/css/font-awesome';*/
 @import 'base/global';
 @import 'base/variable';
+@import 'base/placeholder';
 @import 'base/mixin';
 @import 'base/bootstrap_modify';
 @import 'modules/large-hero';
@@ -24,6 +25,9 @@
 @import 'modules/h-details';
 @import 'modules/h-carousel';
 @import 'modules/test';
+@import 'modules/locationfilter';
+@import 'modules/datepicker';
+@import 'modules/login';
+@import 'modules/carsearchform';
 
 
-/*hotel-list-group*/

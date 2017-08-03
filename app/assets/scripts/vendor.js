@@ -1,1 +1,1 @@
-import '../../temp/modernizr';
+// import '../../temp/modernizr';

@@ -12,6 +12,11 @@
 .wrap{
 	padding-left: 15px;
 	padding-right:  15px;
+
+	&-narrow{
+		padding-left: 80px;
+		padding-right:  80px;
+	}
 }
 
 body{

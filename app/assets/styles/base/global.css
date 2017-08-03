@@ -49,3 +49,14 @@ input { font-family: 'FontAwesome'; }
 .bottom-border{
 	border-bottom: 1px dashed #ccc;
 	}
+
+button:visited{
+    outline: none;   
+    border: none;
+}
+
+button:active{
+    outline: none;   
+    border: none;
+    color: transparent;
+}

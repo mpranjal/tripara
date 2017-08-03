@@ -20,39 +20,7 @@
 		.dashed{
 		border-bottom: 1px dashed $dashed-border-color;
 		}
-		.check-in-out{
-			
-			input[type="text"]
-			{
-				color: black;
-				width: 100px;
-				height: 35px;
-				padding-left: 5px;
-				border:0;
-				border-bottom: 1px dashed $dashed-border-color;
-				margin-right: 20px;
-				cursor: pointer;
-
-
-				&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    				color:    $shy-green;
-				}
-				:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-				   color:    $shy-green;
-				   opacity:  1;
-				}
-				::-moz-placeholder { /* Mozilla Firefox 19+ */
-				  color:    $shy-green;
-				   opacity:  1;
-				}
-				:-ms-input-placeholder { /* Internet Explorer 10-11 */
-				  color:    $shy-green;
-				}
-				::-ms-input-placeholder { /* Microsoft Edge */
-				   color:    $shy-green;
-				}
-			}
-		}
+		
 				
 	}
 	

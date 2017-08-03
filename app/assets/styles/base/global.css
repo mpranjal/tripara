@@ -36,27 +36,3 @@ input[type="text"]:focus{
 
 input { font-family: 'FontAwesome'; }
 
-
-
-.left-border{
-	border-left: 1px dashed #ccc;
-
-}
-.inline-block{
-	display: inline-block;
-}
-
-.bottom-border{
-	border-bottom: 1px dashed #ccc;
-	}
-
-button:visited{
-    outline: none;   
-    border: none;
-}
-
-button:active{
-    outline: none;   
-    border: none;
-    color: transparent;
-}

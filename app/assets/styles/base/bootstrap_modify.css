@@ -10,6 +10,12 @@
   content: ">";
 
 }
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  list-style: none;
+}
 /*tabel*/
 
 table {
@@ -60,4 +66,48 @@ figure, figcaption{
 figcaption{
 	
 	text-align: left;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline:5px auto $main-green; 
+  outline-offset: 0px;
+}
+
+.btn-warning:focus,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.btn-warning.focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus {
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline:5px auto $main-orange; 
+  outline-offset: 0px;
 }

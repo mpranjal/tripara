@@ -13595,30 +13595,6 @@ input[type="text"]:focus{
 
 input { font-family: 'FontAwesome'; }
 
-.left-border{
-	border-left: 1px dashed #ccc;
-
-}
-
-.inline-block{
-	display: inline-block;
-}
-
-.bottom-border{
-	border-bottom: 1px dashed #ccc;
-	}
-
-button:visited{
-    outline: none;   
-    border: none;
-}
-
-button:active{
-    outline: none;   
-    border: none;
-    color: transparent;
-}
-
 /*text*/
 
 .has-placeholder-green input[type="text"]::-webkit-input-placeholder {/* WebKit, Blink, Edge */
@@ -13655,6 +13631,12 @@ button:active{
   color: #ccc;
   content: ">";
 
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 10px;
+  list-style: none;
 }
 
 /*tabel*/
@@ -13709,6 +13691,50 @@ figure, figcaption{
 figcaption{
 	
 	text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline:5px auto #5cc75d; 
+  outline-offset: 0px;
+}
+
+.btn-warning:focus,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.btn-warning.focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus {
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline:5px auto #EF8220; 
+  outline-offset: 0px;
 }
 
 .large-hero{
@@ -14011,12 +14037,29 @@ figcaption{
   opacity: .7;
 }
 
+.textbox-larger{
+  width: 100%;
+}
+
 .textbox-large-bg-grey{/*background-color: #8180A0;*/
 }
 
 .textbox-round{
   border-radius: 25px;
   padding-left: 15px;
+}
+
+.left-border{
+    border-left: 1px dashed #ccc;
+
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.bottom-border{
+    border-bottom: 1px dashed #ccc;
 }
 
 /*@import 'modules/input-text';*/
@@ -14087,16 +14130,15 @@ body{
   font-style: italic;
 }
 
-.right-main__sort-by{/*margin-left: 10px;*/
-  padding-bottom: 11px;
-  position: relative;
-  top: -5px;
+.right-main__sort-by{
+  margin-left: 10px;
+  padding-bottom: 18px;
+  line-height: 35px;
   color: #161B21;
 }
 
 .right-main__utility-icon{
-  float: right;
-  line-height: 25px;
+  float: right;/*line-height: 25px;*/
   font-size: 20px;
   margin-right: 10px;
 }
@@ -15494,6 +15536,45 @@ show {
 
 .carSearchForm .carFacility_radio label{
   margin-right: 20px;
+}
+
+.title-bold{
+  font-family: "Acme";
+  font-weight: 500;/*padding-left: 20px;*/
+  font-size: 14px;
+  color: #6B6D6C;
+}
+
+.date{
+    position: relative;
+}
+
+.date input[type="text"] {
+  position: absolute;
+  padding:0;
+}
+
+.date label{
+  position: relative;
+  top: 5px;
+  left:93%;
+  font-size: 17px;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.padding-down20{
+	padding-bottom: 20px;
+}
+
+.carlist-col-text{
+    text-align: center;
+    font-size: large;
+}
+
+.carlist-col-text-orange{
+  color: #EF8220;
+  font-weight: 900;
 }
 
 

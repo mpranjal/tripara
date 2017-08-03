@@ -22,7 +22,7 @@
 	}
 
 	.link-orange{
-		color: #EF8220;
+		color: $main-orange;
 		text-decoration: none;
 	}
 

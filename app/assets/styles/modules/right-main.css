@@ -16,17 +16,17 @@
 	}
 
 	&__sort-by{
-		/*margin-left: 10px;*/
-		padding-bottom: 11px;
-		position: relative;
-		top: -5px;
+		margin-left: 10px;
+		padding-bottom: 18px;
+		line-height: 35px;
+		
 		color: #161B21;
 		
 	}
 
 	&__utility-icon{
 		float: right;
-		line-height: 25px;
+		/*line-height: 25px;*/
 		font-size: 20px;
 		margin-right: 10px;
 		& > button{

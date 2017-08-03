@@ -9,7 +9,7 @@ gulp.task('watch', function(){
 		server: {
 			baseDir: "app",
 			// files: ["app/test.html", "app/*.html"],
-			index:"hotel-details.html"	
+			index:"index.html"	
 		}
 	});
 

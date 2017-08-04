@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tripara</title>
+    <!-- Custom Google Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+</head>
+
+<body style="background: #ccc; overflow-x: hidden;">
+  <div class="large-hero">
+    <picture>
+      <img src="assets/images/search-bg-image-medium.jpg" class="large-hero__image">
+    </picture>
+
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+
+        <h1 class="large-hero__title">Find your perfect trip</h1>
+        <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.loreum ipsum text is here read</p>
+       
+        <div class="filters m-t">
+        
+          <input id="destination" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Destination" >
+
+          <span class="check-in-out" >      
+              <input id="start-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check in &nbsp;&nbsp;&nbsp;&nbsp; &#xf073;">
+              <input id="end-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check out &nbsp;&nbsp;&nbsp;  &#xf073;">
+          </span>
+
+          <input id="passengertype" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Passengers">
+
+          <button class="btn btn-search btn-search-round"> Search</button>
+          <form action="" class="form-inline package_choice" style="margin-bottom: 0px;color: white;" >
+
+          <input id="r1" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
+          <input id="r2" type="radio" name="package_choice_radio" value="fhc">&nbsp;<label for="r2">FLIGHT + HOTEL + CAR</label>&nbsp;&nbsp;
+          <input id="r3" type="radio" name="package_choice_radio" value="hc">&nbsp;<label for="r3">HOTEL + CAR</label>
+          </form>
+        </div>
+        
+        <div class="filterBox">
+
+          <div id="location" class="filterBoxChild location-from" >
+            <ul class="list-unstyled filterBoxList liststylehover">
+              <h4 class="filterBoxList-item filterBoxList-item-title">Top cities</h4>
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li> 
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">Mumbai, India</span><span class="filterBoxList-cntry">MUM<span></span></span></p>
+                </div>
+              </li>
+
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li>
+              
+              <li>
+                <div class="filterBoxList-item">
+                  <p><span class="filterBoxList-label">New Delhi, India</span><span class="filterBoxList-cntry">DEL<span></span></span></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div id="passenger" class="filterBoxChild passenger" >
+
+            <div class=" filterBoxList passenger-list">
+
+              <section  class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Adult </span><small class="text-muted text-small">(+12yrs)</small></lspan>
+                <ul  class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                  <li>7</li>
+                  <li>8</li>
+                  <li>9</li>
+                </ul>
+              </section>
+
+              <section class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Children with gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+                
+              <section class="filterBoxList-item">
+                <span class="filterBoxList-item-title">Children without gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+
+              <section class="filterBoxList-item ">
+                <span class="filterBoxList-item-title">Infants </span><small class="text-muted text-small">(0-2 yrs)</small></lspan>
+                <ul class="list-unstyled list-inline liststylehover passenger-count">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                </ul>
+              </section>
+              
+              <button class="btn-search btn-search-xsmall">Done</button> 
+            </div>
+          </div>
+        </div>  
+      </div> 
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- <span class="overlayWrapper"></span> -->
+
+
+
+
+<script src="assets/scripts/App.js"></script>
+
+
+</body> 
+</html>

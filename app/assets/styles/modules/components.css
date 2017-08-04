@@ -271,3 +271,18 @@
 .bottom-border{
     border-bottom: 1px dashed #ccc;
 }
+
+
+.gutters{
+    margin-left: 0px; 
+}
+
+.cgreen{
+    color: $main-green;
+}
+
+.cdull{
+    color: #ccc;
+    margin-right: 5px;
+}
+

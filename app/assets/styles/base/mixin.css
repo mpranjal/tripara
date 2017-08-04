@@ -35,3 +35,33 @@
 	border-bottom: 1px dashed #ccc;
 	margin: 0;
 }
+
+@define-mixin placeholder $color: white{
+
+	&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	    color:    $color;
+	    opacity: 1;
+	    @mixin-content;
+	}
+	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    $color;
+	   opacity:  1;
+	   @mixin-content;
+	}
+	&::-moz-placeholder { /* Mozilla Firefox 19+ */
+	  color:    $color;
+	   opacity:  1;
+	   @mixin-content;
+	}
+	&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	  color:    $color;
+	  opacity:  1;
+	  @mixin-content;
+	}
+	&::-ms-input-placeholder { /* Microsoft Edge */
+	   color:    $shy-green;
+	   opacity:  1;
+	   @mixin-content;
+	}
+
+}

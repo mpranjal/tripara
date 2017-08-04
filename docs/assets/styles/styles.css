@@ -13786,7 +13786,7 @@ figcaption{
 .list-group--profile{
   padding-left: 0;
   margin-bottom: 20px;/*position: absolute;*/
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .list-group-item--profile{
@@ -14150,6 +14150,10 @@ figcaption{
 .cdull{
     color: #ccc;
     margin-right: 5px;
+}
+
+.bgwhitesh{
+    background: #f2f2f2;
 }
 
 /*@import 'modules/input-text';*/
@@ -15668,6 +15672,15 @@ show {
 .profile-pic{
   width: 100px;
 }
+
+.review{
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 5px;
+	box-shadow: inset 2px -2px 20px  5px #c7c7c7;
+}
+
 
 
 

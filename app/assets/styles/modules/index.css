@@ -58,18 +58,7 @@
 
 		position: relative;
 		
-		&::before{
-		    display: inline-block;
-		    border-color: transparent transparent #fff;
-		    border-width: 12px;
-		    border-style: solid;
-		    width: 0;
-		    height: 0;
-		    position: absolute;
-		    content: '';
-		    left: 374px;
-		    top:-42px;
-		}
+		@mixin arrow;
 
 	}
 
@@ -94,16 +83,9 @@
 		}
 
 		&::before{
-		    display: inline-block;
-		    border-color: transparent transparent #fff;
-		    border-width: 12px;
-		    border-style: solid;
-		    width: 0;
-		    height: 0;
-		    position: absolute;
-		    content: '';
+		  
 		    left: 440px;
-		    top: -42px;
+		    /*top: -42px;*/
 		}
 
 	}

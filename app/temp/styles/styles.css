@@ -15025,7 +15025,7 @@ section ul li{
   position: relative;
 }
 
-.filterBoxChild::before{
+.filterBoxChild::before {
   display: inline-block;
   border-color: transparent transparent #fff;
   border-width: 12px;
@@ -15035,7 +15035,7 @@ section ul li{
   position: absolute;
   content: '';
   left: 374px;
-  top:-42px;
+  top: -42px;
 }
 
 .filterBox .location-from{
@@ -15054,16 +15054,7 @@ section ul li{
 }
 
 .filterBox .passenger::before{
-  display: inline-block;
-  border-color: transparent transparent #fff;
-  border-width: 12px;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  position: absolute;
-  content: '';
-  left: 440px;
-  top: -42px;
+  left: 440px;/*top: -42px;*/
 }
 
 .liststylehover li:hover{
@@ -15680,6 +15671,82 @@ show {
 	margin-bottom: 5px;
 	box-shadow: inset 2px -2px 20px  5px #c7c7c7;
 }
+
+.flightSearch{
+	
+	color: white;
+	text-align: left;
+	top: 45%;
+	-webkit-transform: translatex(20%);
+	        transform: translatex(20%);
+	width: 80%;
+}
+
+.flightSearch--box{
+  background-color: #c2c2c2;
+  padding: 10px 0 40px 50px;
+  box-shadow: 0px -10px #5cc75d;
+  opacity: .8;
+}
+
+.flightSearch--box::before {
+  display: inline-block;
+  border-color: transparent transparent #fff;
+  border-width: 12px;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: '';
+  left: 374px;
+  top: -42px;
+  top: 48px;
+  left: 60px;
+  border-width: 16px;
+  border-color: transparent transparent #5cc75d;
+}
+
+.flightSearch--box-inner{
+  text-align: left;
+  background-color: #fff;
+  height:70px;
+  padding: 5px 0px 5px 10px;
+  margin-right: 20px;
+}
+
+.flightSearch--box-inner input{
+  color: #5cc75d;
+}
+
+.flightSearch--box-inner input::-webkit-input-placeholder {/* WebKit, Blink, Edge */
+  color: #ccc;
+  opacity: 1;
+}
+
+.flightSearch--box-inner input:-moz-placeholder {/* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+
+.flightSearch--box-inner input::-moz-placeholder {/* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+
+.flightSearch--box-inner input:-ms-input-placeholder {/* Internet Explorer 10-11 */
+  color: #ccc;
+  opacity: 1;
+}
+
+.flightSearch--box-inner input::-ms-input-placeholder {/* Microsoft Edge */
+  color: #93D2B5;
+  opacity: 1;
+}
+
+.flightSearch .bg-hide{
+  background-color: transparent;
+}
+
 
 
 

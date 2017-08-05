@@ -25,13 +25,15 @@
 @import 'modules/h-details';
 @import 'modules/h-carousel';
 @import 'modules/test';
-@import 'modules/locationfilter';
+@import 'modules/index';
 @import 'modules/datepicker';
 @import 'modules/login';
 @import 'modules/carsearchform';
 @import 'modules/carlist';
 @import 'modules/profile';
 @import 'modules/review';
+@import 'modules/flightsearch';
+
 
 
 

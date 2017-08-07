@@ -13786,13 +13786,37 @@ figcaption{
 .list-group--profile{
   padding-left: 0;
   margin-bottom: 20px;/*position: absolute;*/
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .list-group-item--profile{
   padding: 10px 15px;
   background-color: transparent;
   border: 1px solid transparent;
+}
+
+.input-group-addon--flightsearch {
+    padding: 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #5cc75d;
+    text-align: left;
+    border-bottom: 1.2px dashed #5cc75d;
+    background-color: transparent;
+    border-top: 1px solid #fff; 
+    border-left: 1px solid #fff; 
+    border-radius: 0px;
+}
+
+.form-control {
+   border-right: 1px solid #ccc;
+}
+
+.form-group {
+   /* padding: 0px;*/
+   /* font-size: 16px;*/
+
 }
 
 .large-hero{
@@ -15664,6 +15688,14 @@ show {
   width: 100px;
 }
 
+.profile_name{
+		padding-top: 10px;
+	}
+
+.profile_heading{
+	background-color: #415973;color: white;height: 125px; position: relative;
+}
+
 .review{
 	padding-top: 10px;
 	padding-left: 25px;
@@ -15676,20 +15708,19 @@ show {
 	
 	color: white;
 	text-align: left;
-	top: 45%;
-	-webkit-transform: translatex(20%);
-	        transform: translatex(20%);
-	width: 80%;
+	top: 60%;
+	-webkit-transform: translatex(10%);
+	        transform: translatex(10%);
+	width: 86%;
+	/*padding-top: 0px;*/
+	background-color: #c2c2c2;
+	padding:  10px 0px 20px 40px;
+	box-shadow: 0px -10px #5cc75d;
+	opacity: .8;
+	height: 180px;
 }
 
-.flightSearch--box{
-  background-color: #c2c2c2;
-  padding: 10px 0 40px 50px;
-  box-shadow: 0px -10px #5cc75d;
-  opacity: .8;
-}
-
-.flightSearch--box::before {
+.flightSearch::before {
   display: inline-block;
   border-color: transparent transparent #fff;
   border-width: 12px;
@@ -15700,7 +15731,7 @@ show {
   content: '';
   left: 374px;
   top: -42px;
-  top: 48px;
+  top: -40px;
   left: 60px;
   border-width: 16px;
   border-color: transparent transparent #5cc75d;
@@ -15710,7 +15741,8 @@ show {
   text-align: left;
   background-color: #fff;
   height:70px;
-  padding: 5px 0px 5px 10px;
+  font-size: 14px;
+  padding: 5px 0px 5px 20px;
   margin-right: 20px;
 }
 
@@ -15745,6 +15777,18 @@ show {
 
 .flightSearch .bg-hide{
   background-color: transparent;
+}
+
+.flightlist-radio input[type="radio"]{
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-right: 8px;
+}
+
+.flightlist-radio label{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 

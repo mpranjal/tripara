@@ -4,4 +4,14 @@
 		width: 100px;
 	}
 
+
+
+}
+
+.profile_name{
+		padding-top: 10px;
+	}
+
+.profile_heading{
+	background-color: #415973;color: white;height: 125px; position: relative;
 }

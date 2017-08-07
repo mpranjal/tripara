@@ -1,11 +1,1 @@
-<?xml version="1.0"?>
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <g>
-  <title>Layer 1</title>
-  <g id="svg_6">
-   <rect stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#fff" id="svg_1" height="358" width="241.000009" y="89" x="199.5" stroke-width="5" fill="#fff"/>
-   <path stroke="#fff" id="svg_4" d="m222.320006,88.579997l0,-29.999993l30.999994,29.999993l-30.999994,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#fff"/>
-  </g>
- </g>
-</svg>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg"><title>Layer 1</title><path d="M199.5 89h241v358h-241zm22.82-.42v-30l31 30h-31z" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#fff" stroke-width="5" fill="#fff"/></svg>

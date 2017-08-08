@@ -9,7 +9,8 @@
     "lazysizes": "^4.0.0-rc3",
     "normalize.css": "^4.2.0",
     "owl.carousel": "^2.2.0",
-    "picturefill": "^3.0.2"
+    "picturefill": "^3.0.2",
+    "w3-css": "^4.0.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.1",

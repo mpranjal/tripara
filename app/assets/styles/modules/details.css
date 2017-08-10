@@ -1,0 +1,146 @@
+.flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.flex-basis30{flex-basis:  30%;}
+.flex-basis50{flex-basis:  48%;}
+.title-jumbo{font-size:64px;text-transform: uppercase;word-break: break-all;}
+
+.flex-space-equal{
+	flex: 1;
+}
+
+
+.margin-top70{
+	margin-top: 70px;
+}
+
+.text-cap{text-transform: capitalize;}
+.text-upper{ text-transform: uppercase;}
+.text-silver{color: silver;opacity: .8;}
+.text-shygreen{color: #E7FF84}
+.text-silver-appear{font-size: 20px;}
+
+.hr-below{
+	border-bottom: 1px solid #ccc;
+}
+
+.p{
+    padding: 0;
+
+    &-t{
+        padding-top: 0;
+    }
+    &-b{
+        padding-bottom: 0;
+    }
+}
+.no-padding{padding: 0;}
+.padding-20{padding: 50;}
+.padding{padding:70px 0px 100px 0px;}
+.padding-below100{	padding-bottom: 100px;}
+
+.margin{margin:70px 40px 20px 40px;}
+.margin-bottom40{margin-bottom: 40px;}
+
+.m{
+    margin: 0;
+
+    &-t{
+        margin-top: 0;
+
+        &-b20{
+            margin-top: 30px;
+            border: 1px dashed #ccc;
+        }
+    }
+    &-b{
+        margin-bottom: 0;
+    }
+
+}
+
+.margin-top15{margin-top: 15px;}
+.margin-top20{margin-top: 20px;}
+.margin-topleft20{	margin: 20px 0 0 20px;}
+.margin-right20{margin-right: 20px;}
+.font-w600{	font-weight: 600;}
+.font-w900{ font-weight: 900; }
+.font-w700{font-weight: 700;}
+.font-s12{	font-size: 12px;line-height: 1.8; }
+.font-s18{font-size: 18px;}
+
+.media-body {  width: auto; }
+
+.media-content{	margin-left: 20px;	position: relative;	top: -5px;}
+
+.card{
+	background-color: #f1f1f1;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.half{width:49.99999%;display: inline-block; vertical-align: top;}
+
+.code{width:auto;background-color:#f1f1f1;padding:8px 12px;border-bottom: 3px solid #4CAF50;word-wrap:break-word}
+
+.navbar {
+    position: relative;
+    min-height: 85px;
+    margin-bottom: 0px; 
+    border: 1px solid transparent;
+}
+
+.circle{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	font-size: 19px;
+	color: white;
+}
+
+.square{
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	font-size: 24px;
+	color: white;
+
+}
+
+.media-left{
+	display: inline-block;
+	float: left;
+}
+
+.mediaObject-green{
+	background-color: $main-green;
+}
+.ib{
+    display: inline-block;
+}
+
+.starings{
+    color: $main-green
+}
+
+.cblack{
+    color: black;
+}
+.cwhite{color: #f5f5f5;}
+.ctext{
+    color: $hr-page;
+}
+.cgreen{
+    color: $main-green;
+}
+
+.cdull{
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.bgwhitesh{
+    background: #f2f2f2;
+}

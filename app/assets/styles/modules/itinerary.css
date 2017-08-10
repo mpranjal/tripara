@@ -13,46 +13,44 @@
 		text-transform: uppercase;
 		text-shadow: 1px 1px 5px #ccc;
 	}
+
+	&-info{
+		position: relative;
+
+		&--content{
+		position: absolute;
+		/*width: 100%;*/
+		top: 0;
+		left: 0;
+		text-align: center;
+		}
+	}
+
+	&-info-angleRight{
+		position: relative;top: 50px;font-weight: 100; color:$main-green;transform: scale(8);
+	}
+	
+	&-tour-byDay{
+		
+		&-desc{
+			margin: 25px 0px 0 20px; 
+		}
+
+		footer{
+			background-color: #3C4252;
+			padding: 15px 40px;
+
+			.star-shadow{
+				font-size: 20px;
+				text-shadow: .5px .5px 2px #fff;
+			}
+		}
+	}
+
 }
 
-.card{
-	background-color: #f1f1f1;
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-}
 
-.margin{margin:70px 40px 70px 40px;  }
 
-.half{width:40.99999%;display: inline-block; vertical-align: top;}
 
-.code{width:auto;background-color:#f1f1f1;padding:8px 12px;border-bottom: 3px solid #4CAF50;word-wrap:break-word}
 
-.xxxlarge{font-size:46px;}
 
-.jumbo-title{font-size:64px;font-weight: 900;text-transform: uppercase;word-break: break-all;}
-
-/*.weight-jumbo{font-weight: }*/
-
-.padding{padding:70px 40px 70px 40px}
-.no-padding{padding: 0;}
-
-.text-silver{color: silver;opacity: .8;}
-
-.media-body {
-  width: auto;
-}
-
-.flex{
-	display: flex;
-}
-
-.flex-space-equal{
-	flex: 1;
-}
-
-.margin-top70{
-	margin-top: 70px;
-}
-
-.hr-below{
-	text-decoration: underline;
-}

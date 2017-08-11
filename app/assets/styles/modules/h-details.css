@@ -227,6 +227,12 @@
 	
 	.h-room-short-desc{
 		vertical-align: top;
+		margin-left: -50px;
+		margin-right: 10px; 
+
+		p{
+			max-width: 200px;
+		}
 	}
 
 	tr{

@@ -55,7 +55,7 @@
       <div class="row  wrap" style="background: #f2f2f2;">
         <div class="col-lg-6">
           <div class="hr-details">
-              <h1 class="hr-details--name" >Grand Plaza Appartments</h1>
+              <h1 class="hr-details--name " >Grand Plaza Appartments</h1>
               <span class="starings">
                   <i class=" glyphicon glyphicon-star"></i>
                   <i class=" glyphicon glyphicon-star"></i>
@@ -68,7 +68,7 @@
         </div>
         <div class="col-lg-6">
            <span class="cost-detail">From-<span class="cost cost--large">$345</span>/night&nbsp;&nbsp;
-            <a href="carsearch.html" class="btn btn-search btn-search--large">Book Now</a> 
+           <span> <a href="carsearch.html" class="btn btn-search btn-search--large ">Book Now</a> </span>
            </span>
         </div>
       </div>
@@ -106,7 +106,7 @@
 
         <div class="col-lg-3 ">
         <!-- review -->
-          <div class="h-review">
+          <!-- <div class="h-review">
             <h1 class="hr-details--heading hr-details--heading-green bottom-border hr-details--heading-border-right-green m-t">Fantastic</h1>
             <div class="row">
 
@@ -133,11 +133,11 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <cite><strong class="cblack">Daniel Brown</strong> <small style="font-size: 15px">-Swedan, 28/3/2013</small></cite>
             </p>
-          </div>
+          </div> -->
         <!-- review ends -->
         
         <!-- features -->
-          <div>
+         <!--  <div>
             <ul class="list-unstyled h-feature">
               <li>
                 <a href="javascript:"><h3 class="h-feature--title">Features</h3></a>
@@ -158,123 +158,267 @@
                 <a href="javascript:"><h3>Reviews</h3></a>
               </li>
             </ul>
-          </div>  
+          </div>   -->
         <!-- feature ends -->
         </div>
 
 
-        <div class="col-lg-9" style="border-left: 1px dashed #ccc; ">
+        <div class="col-lg-12" style="border-left: 1px dashed #ccc; ">
           <!--room types tabel -->
             <div class="hr-roomtabel">
               <div class="table-responsive">
                 <table class="tabel">
                   <thead class="table-head h-roomtabel--head">
                     <tr>
-                      <th class="col-lg-3 hr-roomtabel--head-title">Room Types</th>
-                      <th class="col-lg-3 hr-roomtabel--head-title">&nbsp;</th>
-                      <th class="col-lg-2 hr-roomtabel--head-title">Rate(/night)</th>
-                      <th class="col-lg-2 hr-roomtabel--head-title">No. Rooms</th>
+                      <th class="col-lg-2 hr-roomtabel--head-title">Room Types</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">&nbsp;</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">Meals</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">Adults</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">Children</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">No. Rooms</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title">&nbsp;</th>
+
                     </tr>
                   </thead>
                   <tbody class="hr-roomtabel--body">
                     <tr>
-                      <td class="col-lg-3">
-                            <img src="assets/images/side-image.png" height="100" width="170">
+                      <td class="col-lg-2 ">
+                          <a href="assets/images/hotel-room2.jpg"><img src="assets/images/hotel-room2.jpg" class="img-thumbnail" height="100" width="170" style="cursor: pointer;"></a>
+                            
                       </td>
-                      <td class="col-lg-3 h-room-short-desc">
+                      <td class="col-lg-1 h-room-short-desc">
                           <div class="h-room-short-desc ">
                              <h4>Hotel name</h4>
                               <p>horel description blah blah blah <a href="javascript:" data-toggle="modal" data-target="#hotel-room">more to read</a></p>
-                          </div>
-                             
+                          </div>   
                       </td>
-                      <td class="col-lg-2">
+                      <!-- <td class="col-lg-2">
                         <p><strong class="cost cost-blackSmall">$345</strong>/night</p>
+                      </td> -->
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">Select Meal</option>
+                          <option value="">Breakfast</option>
+                          <option value="">Lunch</option>
+                          <option value="">Dinner</option>
+                        </select>
                       </td>
-                      <td class="col-lg-2">
+                      <td class="col-lg-1">
                         <select class="h-select h-select--blackSmall" name="" id="">
                           <option value="">
                             1 room
                           </option>
                         </select>
                       </td>
-                      <td class="col-lg-2">
-                        <a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <!-- <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select> -->
+                        <input type="text" class="textbox  text-center" readonly="" value="5" style="font-weight: 600">
+                      </td>
+                      <td class="col-lg-1">
+                        <span ><a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a></span>
                       </td>
                     </tr>
                     <tr>
-                      <td class="col-lg-3">
-                            <img src="assets/images/side-image.png" height="100" width="170">
+                      <td class="col-lg-2 ">
+                          <a href="assets/images/hotel-room2.jpg"><img src="assets/images/hotel-room2.jpg" class="img-thumbnail" height="100" width="170" style="cursor: pointer;"></a>
+                            
                       </td>
-                      <td class="col-lg-3 h-room-short-desc">
+                      <td class="col-lg-1 h-room-short-desc">
                           <div class="h-room-short-desc ">
                              <h4>Hotel name</h4>
                               <p>horel description blah blah blah <a href="javascript:" data-toggle="modal" data-target="#hotel-room">more to read</a></p>
-                          </div>
-                             
+                          </div>   
                       </td>
-                      <td class="col-lg-2">
+                      <!-- <td class="col-lg-2">
                         <p><strong class="cost cost-blackSmall">$345</strong>/night</p>
+                      </td> -->
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">Select Meal</option>
+                          <option value="">Breakfast</option>
+                          <option value="">Lunch</option>
+                          <option value="">Dinner</option>
+                        </select>
                       </td>
-                      <td class="col-lg-2">
+                      <td class="col-lg-1">
                         <select class="h-select h-select--blackSmall" name="" id="">
                           <option value="">
                             1 room
                           </option>
                         </select>
                       </td>
-                      <td class="col-lg-2">
-                        <a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <!-- <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select> -->
+                        <input type="text" class="textbox  text-center" readonly="" value="5" style="font-weight: 600">
+                      </td>
+                      <td class="col-lg-1">
+                        <span ><a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a></span>
                       </td>
                     </tr>
                     <tr>
-                      <td class="col-lg-3">
-                            <img src="assets/images/side-image.png" height="100" width="170">
+                      <td class="col-lg-2 ">
+                          <a href="assets/images/hotel-room2.jpg"><img src="assets/images/hotel-room2.jpg" class="img-thumbnail" height="100" width="170" style="cursor: pointer;"></a>
+                            
                       </td>
-                      <td class="col-lg-3 h-room-short-desc">
+                      <td class="col-lg-1 h-room-short-desc">
                           <div class="h-room-short-desc ">
                              <h4>Hotel name</h4>
                               <p>horel description blah blah blah <a href="javascript:" data-toggle="modal" data-target="#hotel-room">more to read</a></p>
-                          </div>
-                             
+                          </div>   
                       </td>
-                      <td class="col-lg-2">
+                      <!-- <td class="col-lg-2">
                         <p><strong class="cost cost-blackSmall">$345</strong>/night</p>
+                      </td> -->
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">Select Meal</option>
+                          <option value="">Breakfast</option>
+                          <option value="">Lunch</option>
+                          <option value="">Dinner</option>
+                        </select>
                       </td>
-                      <td class="col-lg-2">
+                      <td class="col-lg-1">
                         <select class="h-select h-select--blackSmall" name="" id="">
                           <option value="">
                             1 room
                           </option>
                         </select>
                       </td>
-                      <td class="col-lg-2">
-                        <a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <!-- <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select> -->
+                        <input type="text" class="textbox  text-center" readonly="" value="5" style="font-weight: 600">
+                      </td>
+                      <td class="col-lg-1">
+                        <span ><a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a></span>
                       </td>
                     </tr>
                     <tr>
-                      <td class="col-lg-3">
-                            <img src="assets/images/side-image.png" height="100" width="170">
+                      <td class="col-lg-2 ">
+                          <a href="assets/images/hotel-room2.jpg"><img src="assets/images/hotel-room2.jpg" class="img-thumbnail" height="100" width="170" style="cursor: pointer;"></a>
+                            
                       </td>
-                      <td class="col-lg-3 h-room-short-desc">
+                      <td class="col-lg-1 h-room-short-desc">
                           <div class="h-room-short-desc ">
                              <h4>Hotel name</h4>
                               <p>horel description blah blah blah <a href="javascript:" data-toggle="modal" data-target="#hotel-room">more to read</a></p>
-                          </div>
-                             
+                          </div>   
                       </td>
-                      <td class="col-lg-2">
+                      <!-- <td class="col-lg-2">
                         <p><strong class="cost cost-blackSmall">$345</strong>/night</p>
+                      </td> -->
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">Select Meal</option>
+                          <option value="">Breakfast</option>
+                          <option value="">Lunch</option>
+                          <option value="">Dinner</option>
+                        </select>
                       </td>
-                      <td class="col-lg-2">
+                      <td class="col-lg-1">
                         <select class="h-select h-select--blackSmall" name="" id="">
                           <option value="">
                             1 room
                           </option>
                         </select>
                       </td>
-                      <td class="col-lg-2">
-                        <a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <!-- <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select> -->
+                        <input type="text" class="textbox  text-center" readonly="" value="5" style="font-weight: 600">
+                      </td>
+                      <td class="col-lg-1">
+                        <span ><a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-2 ">
+                          <a href="assets/images/hotel-room2.jpg"><img src="assets/images/hotel-room2.jpg" class="img-thumbnail" height="100" width="170" style="cursor: pointer;"></a>
+                            
+                      </td>
+                      <td class="col-lg-1 h-room-short-desc">
+                          <div class="h-room-short-desc ">
+                             <h4>Hotel name</h4>
+                              <p>horel description blah blah blah <a href="javascript:" data-toggle="modal" data-target="#hotel-room">more to read</a></p>
+                          </div>   
+                      </td>
+                      <!-- <td class="col-lg-2">
+                        <p><strong class="cost cost-blackSmall">$345</strong>/night</p>
+                      </td> -->
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">Select Meal</option>
+                          <option value="">Breakfast</option>
+                          <option value="">Lunch</option>
+                          <option value="">Dinner</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1">
+                        <!-- <select class="h-select h-select--blackSmall" name="" id="">
+                          <option value="">
+                            1 room
+                          </option>
+                        </select> -->
+                        <input type="text" class="textbox  text-center" readonly="" value="5" style="font-weight: 600">
+                      </td>
+                      <td class="col-lg-1">
+                        <span ><a href="carsearch.html" class="btn btn-search" style="padding-top: 10px;">Book</a></span>
                       </td>
                     </tr>
                   </tbody>
@@ -285,17 +429,17 @@
           <!-- tabel end -->
 
           <!-- facilities tabel -->
-            <div class="facilities">
+            <div class="facilities text-cap">
                 <h3 class="cblack">Facilities</h3>
                 <hr class="m-t-b20">
                 <table class="table">
-                  <tbody>
+                  <tbody >
                   <!-- fac-row-1 -->
-                    <tr>
-                      <td class="col-lg-4">
-
+                    <tr class="">
+                      <td class="col-lg-4 ">
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/breakfast.png" class="checkimagebox-image">
+
                           <div class="tick">&check;</div>
                         </div>
                         <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
@@ -303,18 +447,18 @@
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/spa.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;spa service</label>
                       </td>
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/park.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;free parking</label>
                       </td>
                     </tr>
                   <!-- fac-row2 -->
@@ -322,26 +466,26 @@
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/sauna.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;sauna service</label>
                       </td>
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/restraurant.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;restaurant</label>
                       </td>
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/casino.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;casino</label>
                       </td>
                     </tr>
                   <!-- fac-row-3 -->
@@ -349,26 +493,26 @@
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/swim-pool.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;swimming pool</label>
                       </td>
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/taxi.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;airport transfer</label>
                       </td>
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/wifi.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;free wi-fi in all rooms</label>
                       </td>
                     </tr>
                   <!-- fac-row-4 -->
@@ -376,17 +520,42 @@
                       <td class="col-lg-4">
 
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/smoke-zone.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;smoking area</label>
                       </td>
                       <td class="col-lg-4">
                         <div class="checkimagebox">
-                          <img src="  assets/images/icons/icons8-Front%20Desk-40.png" class="checkimagebox-image">
+                          <img src="  assets/images/icons/laundry.png" class="checkimagebox-image">
                           <div class="tick">&check;</div>
                         </div>
-                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Free Breakfast</label>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;laundry service</label>
+                      </td>
+                      <td class="col-lg-4">
+                        <div class="checkimagebox">
+                          <img src="  assets/images/icons/meet-ups.png" class="checkimagebox-image">
+                          <div class="tick">&check;</div>
+                        </div>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;Business center</label>
+                      </td>
+                    </tr>
+                  <!-- fac-row-5 -->
+                    <tr>
+                      <td class="col-lg-4">
+
+                        <div class="checkimagebox">
+                          <img src="  assets/images/icons/dryer.png" class="checkimagebox-image">
+                          <div class="tick">&check;</div>
+                        </div>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;hair dryer</label>
+                      </td>
+                      <td class="col-lg-4">
+                        <div class="checkimagebox">
+                          <img src="  assets/images/icons/front-desk.png" class="checkimagebox-image">
+                          <div class="tick">&check;</div>
+                        </div>
+                        <label>&nbsp;&nbsp;&nbsp;&nbsp;24-hour front desk</label>
                       </td>
                     </tr>
                   </tbody>
@@ -394,13 +563,13 @@
             </div>
 
           <!-- Language Spoken -->
-            <div class="language-spoken ">
+            <!-- <div class="language-spoken ">
               <h3 class="cblack">Language Spoken</h3>
               <hr class="m-t-b20">
               <table class="table">
                 <tbody>
                   <!-- fac-row-1 -->
-                    <tr>
+                   <!--  <tr>
                       <td class="col-lg-4">
                         <div class="checkimagebox">
                           <div class="tick tick--center">&check;</div>
@@ -420,10 +589,10 @@
                           <div class="tick tick--center">&check;</div>
                         </div>
                         <label>&nbsp;&nbsp;Free Breakfast</label>
-                      </td>
-                    </tr>
+                      </td> -->
+                    <!-- </tr> -->
                   <!-- fac-row-2 -->
-                    <tr>
+                    <!-- <tr>
                       <td class="col-lg-4">
                         <div class="checkimagebox">
                           <div class="tick tick--center">&check;</div>
@@ -437,18 +606,18 @@
                         </div>
                         <label>&nbsp;&nbsp;Free Breakfast</label>
                       </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
               </table>
-            </div>
+            </div> -->
             
           <!-- Memeber Review -->
-            <div class="h-member-review cblack">
+            <!-- <div class="h-member-review cblack">
               <h2 class="h-member-review--title">Member reviews</h2> 
-              <hr>
+              <hr> -->
               <!-- Static sliders -->
                
-              <div class="h-member-review--bars">
+              <!-- <div class="h-member-review--bars">
                <div class="row">
                  <div class="col-lg-8">
                    <div>
@@ -576,7 +745,7 @@
                 </div>
               </div>  
 
-            </div>
+            </div> -->
 
         </div>
       </div>

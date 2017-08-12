@@ -233,7 +233,7 @@
     margin-left: 0px; 
 }
 
-<<<<<<< HEAD
+
 .cgreen{
     color: $main-green;
 }
@@ -261,5 +261,4 @@
 .text-cap{text-transform: capitalize;}
 
 .decoration-none{ a {text-decoration: none;} }
-=======
->>>>>>> itinerary
+

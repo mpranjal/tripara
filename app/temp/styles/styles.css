@@ -14516,7 +14516,6 @@ figcaption{
     margin-left: 0px; 
 }
 
-<<<<<<< HEAD
 .cgreen{
     color: #5cc75d;
 }
@@ -14547,8 +14546,6 @@ figcaption{
   text-decoration: none;
 }
 
-=======
->>>>>>> itinerary
 /*@import 'modules/input-text';*/
 
 /*@import 'modules/btn';*/
@@ -14690,21 +14687,22 @@ ul.nav.nav-pills {
 
 .list .hotel-list-right{
   display: block;
-  margin-top: 20px;/*margin-bottom: 30px;*//*padding-bottom: 10px;*/
-  height: auto;/*@mixin bottom-border;*/
-  background-color: #efefef;
-  padding: 0 10px 0 20px ;
+  margin: 20px 0px 0 10px;/*margin-bottom: 30px;*//*padding-bottom: 10px;*/
+  height: auto;/*@mixin bottom-border;*//*background-color: #efefef;*/
+  padding: 0 0px 20px 0px ;
 }
 
+/*&:hover{box-shadow: 2px 2px 2px;}*/
+
 .list .hotel-list-right:hover{
-  box-shadow:3px 3px 5px 3px rgba(0,0,0,0.16) ,3px 3px 5px 3px rgba(0,0,0,0.16) ;
-  transition: ease .8s box-shadow;
+  box-shadow:3px 3px 5px 3px rgba(0,0,0,0.16)  ;
+  transition: ease .5s box-shadow;
 }
 
 .list .hotel-list-right__image{
   width: 45%;
   float: left;
-  margin: 10px 10px 10px 0;
+  margin: 20px 10px 10px 0;
   padding: 0px 15px;
   display: inline-block;
 }
@@ -14754,6 +14752,8 @@ ul.nav.nav-pills {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: relative;
+  top: 30px;
 }
 
 .list .hotel-list-right__offerings img{
@@ -14924,7 +14924,7 @@ section ul li{
 .grid .hotel-list-right{
   background: #e9e9e9;
   display: inline-block;
-  margin-top: 20px;
+  margin: 20px 5px 0 20px;
 }
 
 .grid .hotel-list-right:hover{/*transform:scale(.98);*/
@@ -15232,7 +15232,7 @@ section ul li{
 }
 
 .hr-roomtabel tr{
-  border-top:  1px dashed #ccc;
+  border-bottom:  1px dashed #ccc;
 }
 
 .hr-roomtabel--head-title{

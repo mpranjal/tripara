@@ -33,7 +33,7 @@
 
 @define-mixin bottom-border{
 	border-bottom: 1px dashed #ccc;
-	margin: 0;
+	
 }
 
 @define-mixin placeholder $color: white{

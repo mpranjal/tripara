@@ -1,26 +1,28 @@
+
 .list{	
 		/*background: #efecec;*/
 	.hotel-list-right{		
 		    
 		    display: block;
-		    margin-top: 20px;
+		    margin: 20px 0px 0 10px;
 		    /*margin-bottom: 30px;*/
 		    /*padding-bottom: 10px;*/
 		    height: auto;
 		    /*@mixin bottom-border;*/
-		    background-color: #efefef;
-		    padding: 0 10px 0 20px ;
+		    /*background-color: #efefef;*/
+		    padding: 0 0px 20px 0px ;
+		    
+		    /*&:hover{box-shadow: 2px 2px 2px;}*/
 		   	
 		&:hover{
-		    	box-shadow:3px 3px 5px 3px rgba(0,0,0,0.16) ,3px 3px 5px 3px rgba(0,0,0,0.16) ;
-
-		    	transition: ease .8s box-shadow;
+		    	box-shadow:3px 3px 5px 3px rgba(0,0,0,0.16)  ;
+		    	transition: ease .5s box-shadow;
 		    }
 
 		&__image{
 		    width: 45%;
 		    float: left;
-		    margin: 10px 10px 10px 0;
+		    margin: 20px 10px 10px 0;
 			padding: 0px 15px;
 			
 			display: inline-block;
@@ -72,6 +74,8 @@
 
 		&__offerings{
 			display: inline-flex;
+			position: relative;
+			top: 30px;
 
 			img{
 				position: relative;

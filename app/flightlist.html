@@ -33,13 +33,13 @@
             <p class="left-main__title">we found <br> <i class="green" style="font-size: 27px; ">640</i>&nbsp;&nbsp;properties availability</p>
         </div>
 
-        <div class="flightlist-radio wrap">
+      <!--   <div class="flightlist-radio wrap">
           <input id="fr1" type="radio" name="flight">&nbsp;<label for="fr1"><b>Round Trip</b></label><br>
           <input id="fr2" type="radio" name="flight">&nbsp;<label for="fr2"><b>One Way</b></label><br>
           <input id="fr3" type="radio" name="flight">&nbsp;<label for="fr3"><b>Multiple Destination</b></label>
-        </div>
+        </div> -->
 
-        <div class="hotel-list-left wrap flightlist-">
+       <!--  <div class="hotel-list-left wrap flightlist-">
             <section class="hotel-list-left--section1">
                 <ul>
                     <li class="dashed"><span class="destination">From: </span><label class="country"> City, airport.....</label></li>
@@ -88,7 +88,7 @@
                     </li>
                 </ul>   
             </section>
-        </div>
+        </div> -->
     </div>
 
     <div class="col-lg-9 wrapper-padding-zero">
@@ -101,12 +101,17 @@
           </ol>
 
           <div class="right-main__sort-by bottom-border">
-              <h3 style="margin-left: 10px;" class="title-bold ib">
-              <img src="assets/images/Flight1.png" alt="">&nbsp;&nbsp;&nbsp;Bankok - New York</h3>
-              <h4 class="title-bold" style="position: relative;float: right;margin-right: 20px;top: 10px">15 trips</h4>
+              <h3 style="margin-left: 10px;" class="title-bold ib m">
+               <img src="assets/images/Flight1.png" alt="">&nbsp;&nbsp;&nbsp;Bankok - New York
+              </h3>
+              <h4 class="title-bold" style="position: relative;float: right;margin-right: 20px;top: 10px"></h4>
           </div>    
       </div>
-        
+    </div>              
+  </div> 
+
+  <div class="row">
+    <div class="col-lg-12">
       <!--room types tabel -->
         <div class="hr-roomtabel wrap">
           <div class="table-responsive">
@@ -115,27 +120,30 @@
                     <tr>
                       <th class="col-lg-3 hr-roomtabel--head-title carlist-col-text">Flights</th>
                       <th class="col-lg-2 hr-roomtabel--head-title carlist-col-text">Depart Time</th>
-                      <th class="col-lg-2 hr-roomtabel--head-title carlist-col-text">Return Time</th>
-                      <th class="col-lg-2 hr-roomtabel--head-title carlist-col-text">No. Stops</th>
-                      <th class="col-lg-2 hr-roomtabel--head-title carlist-col-text">&nbsp;</th>
+                      <th class="col-lg-2 hr-roomtabel--head-title carlist-col-text">Arrival Time</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title carlist-col-text">No. Stops</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title carlist-col-text">Adults</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title carlist-col-text">Children with matress</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title carlist-col-text">Children w/o matress</th>
+                      <th class="col-lg-1 hr-roomtabel--head-title carlist-col-text">&nbsp;</th>
                     </tr>
                   </thead>
               <tbody class="hr-roomtabel--body">
                   <tr>
-                      <td class="col-lg-4 carlist-col-text">
+                      <td class="col-lg-3 carlist-col-text">
                         <div>
                           <img src="assets/images/flight/Air_Odisha_Logo.png" alt="" width="80" height="20">
                           <label>Indian Airlines</label>
                         </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                          <div>
                            <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            <label class="text-muted">BKK</label>
                          </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                         <div>
                           <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -144,26 +152,41 @@
                       </td>
                       <td class="col-lg-1 carlist-col-text">
                         <label>2 </label>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
                       </td>
                       <td class="col-lg-1 carlist-col-text">
                         <a href="profile.html" class="btn-lg btn btn-success" >Book</a>
                       </td>
                   </tr>
                   <tr>
-                      <td class="col-lg-4 carlist-col-text">
+                      <td class="col-lg-3 carlist-col-text">
                         <div>
                           <img src="assets/images/flight/Air_Odisha_Logo.png" alt="" width="80" height="20">
                           <label>Indian Airlines</label>
                         </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                          <div>
                            <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            <label class="text-muted">BKK</label>
                          </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                         <div>
                           <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -172,26 +195,41 @@
                       </td>
                       <td class="col-lg-1 carlist-col-text">
                         <label>2 </label>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
                       </td>
                       <td class="col-lg-1 carlist-col-text">
                         <a href="profile.html" class="btn-lg btn btn-success" >Book</a>
                       </td>
                   </tr>
                   <tr>
-                      <td class="col-lg-4 carlist-col-text">
+                      <td class="col-lg-3 carlist-col-text">
                         <div>
                           <img src="assets/images/flight/Air_Odisha_Logo.png" alt="" width="80" height="20">
                           <label>Indian Airlines</label>
                         </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                          <div>
                            <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            <label class="text-muted">BKK</label>
                          </div>
                       </td>
-                      <td class="col-lg-3 carlist-col-text">
+                      <td class="col-lg-2 carlist-col-text">
                         <div>
                           <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -202,17 +240,76 @@
                         <label>2 </label>
                       </td>
                       <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
                         <a href="profile.html" class="btn-lg btn btn-success" >Book</a>
                       </td>
                   </tr>
+                  <tr>
+                      <td class="col-lg-3 carlist-col-text">
+                        <div>
+                          <img src="assets/images/flight/Air_Odisha_Logo.png" alt="" width="80" height="20">
+                          <label>Indian Airlines</label>
+                        </div>
+                      </td>
+                      <td class="col-lg-2 carlist-col-text">
+                         <div>
+                           <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <label class="text-muted">BKK</label>
+                         </div>
+                      </td>
+                      <td class="col-lg-2 carlist-col-text">
+                        <div>
+                          <label class="title-bold">08:35 <sub class="text-muted">AM</sub></label>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <label  class="text-muted">BKK</label>
+                        </div>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <label>2 </label>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <select class="h-select cblack" name="" id="" >
+                          <option value="">Select</option>
+                        </select>
+                      </td>
+                      <td class="col-lg-1 carlist-col-text">
+                        <a href="profile.html" class="btn-lg btn btn-success" >Book</a>
+                      </td>
+                  </tr>
+                  
               </tbody>
               
             </table>
           </div>
         </div>
       <!-- tabel end -->
-    </div>              
-  </div>    
+    </div>
+  </div>   
 </div>
 
 

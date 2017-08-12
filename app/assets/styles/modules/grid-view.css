@@ -3,7 +3,7 @@
 	.hotel-list-right{		
 		    background: #e9e9e9;
 		    display: inline-block;
-		    margin-top: 20px;
+		    margin: 20px 5px 0 20px;
 
 		   
 		&:hover{

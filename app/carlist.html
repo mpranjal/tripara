@@ -19,6 +19,8 @@
     <link href="temp/styles/styles.css" rel="stylesheet">
     <!-- endbuild -->
 
+
+
 </head>
 <body>
 
@@ -38,8 +40,24 @@
         <div class="hotel-list-left wrap">
             <section class="hotel-list-left--section1">
                 <ul>
-                    <li class="dashed"><span class="destination">Picking Up: </span><label class="country"> City, airport.....</label></li>
-                    <li class="dashed"><span class="destination">Droping off: </span><label class="country"> City, airport.....</label></li>
+                    <li class="dashed" >
+                      <span class="destination " >Picking Up: </span>
+                      <!-- <label class="country selectpicker"> City, airport.....</label> -->
+
+                        <select class="selectpicker" data-live-search="true"">
+                          <option>Mulund</option>
+                          <option>Bhivandi</option>
+                          <option>thane</option>
+                        </select>
+                    </li>
+                    <li class="dashed"  >
+                    <span class="destination" ">Droping off: </span>
+                    <!-- <label class="country"> City, airport.....</label></li> -->
+                    <select class="selectpicker" data-live-search="true" ">
+                      <option>Mulund</option>
+                      <option>Bhivandi</option>
+                      <option>thane</option>
+                    </select>
                     <li>
                         <div class="date">
                             <input class="check textbox textbox-larger" name="start-date" type="text" placeholder="03/22/2017">

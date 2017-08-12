@@ -1,0 +1,54 @@
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 140px;
+  margin-bottom: 5px;
+  margin-left: 10px
+}
+.bootstrap-select > .dropdown-toggle {
+  display: inline-block;
+  width: 140px;
+  padding-right: 25px;
+  z-index: 1;
+  background: #fff;
+  border: 0;
+}
+select.bs-select-hidden,
+select.selectpicker {
+  display: block;
+}
+
+.bootstrap-select > select {
+  /*position: absolute ;*/
+  bottom: 0;
+  left: 30%;
+  display: inline-block; ;
+  width: 0.5px ;
+  height: 100% ;
+  padding: 0 ;
+  opacity: 0 ;
+  border: none;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  margin-top: -2px;
+  vertical-align: middle;
+  display: none;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+  color: #f2f2f2;
+}
+
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 900;
+    text-align: left;
+}

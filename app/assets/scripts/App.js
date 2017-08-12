@@ -6,8 +6,10 @@ var Bootstrap = require("./vendors/Bootstrap");
 var test = require("./test");
 var DatePick = require("./modules/DatePick");
 var FilterList = require("./modules/FilterList");
+var BS_Function = require("./modules/BS_Function");
 
 
+var bsf = new BS_Function();
 var filterList = new FilterList();
 var datepick = new DatePick();
 var test = new test();

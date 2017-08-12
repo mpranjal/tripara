@@ -302,3 +302,5 @@
 .first-cap{ &::first-letter{text-transform: uppercase;} }
 
 .text-cap{text-transform: capitalize;}
+
+.decoration-none{ a {text-decoration: none;} }

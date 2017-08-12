@@ -1,7 +1,10 @@
 @import 'normalize.css';
+
 @import 'vendors/jquery-ui';
 @import 'vendors/bootstrap';
 @import 'vendors/bootstrap-theme';
+@import 'vendors/bootstrap-select';
+@import 'base/modify-bs-select';
 @import 'vendors/font-awesome';
 
 /*@import '../bootstrap/css/bootstrap';*/
@@ -26,7 +29,7 @@
 @import 'modules/h-carousel';
 @import 'modules/test';
 @import 'modules/index';
-@import 'modules/datepicker';
+/*@import 'modules/datepicker';*/
 @import 'modules/login';
 @import 'modules/carsearchform';
 @import 'modules/carlist';

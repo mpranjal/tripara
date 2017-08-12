@@ -1,0 +1,64 @@
+.itinerary{
+
+	&-content{
+		top: 0px;
+		transform: translateX(3%);
+		padding-top: 0px;
+		width: 95%;
+	}
+
+	&-title{
+		color: #fff;
+		font-size: 46px;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 5px #ccc;
+	}
+
+	&-info{
+		position: relative;
+
+		&--content{
+		position: absolute;
+		/*width: 100%;*/
+		top: 0;
+		left: 0;
+		text-align: center;
+		}
+	}
+
+	&-info-angleRight{
+		position: relative;top: 50px;font-weight: 100; color:$main-green;transform: scale(8);
+	}
+	
+	&-tour-byDay{
+		
+		&-desc{
+			margin: 55px 30px 0 45px; 
+
+			
+		}
+
+		footer{
+			background-color: #3C4252;
+			padding: 15px 40px;
+
+			.star-shadow{
+				font-size: 20px;
+				text-shadow: .5px .5px 2px #fff;
+			}
+		}
+
+		.widgets{
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+	}
+	
+	
+}
+
+
+
+
+
+

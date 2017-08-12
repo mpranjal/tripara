@@ -105,9 +105,6 @@
 }
 
 
-.starings{
-    color: $main-green
-}
 
 
 .h-dropdown{
@@ -178,44 +175,9 @@
 }
 
 
-.cblack{
-    color: black;
-}
 
-.ib{
-    display: inline-block;
-}
 
-/*margin-0*/
-    .m{
-        margin: 0;
 
-        &-t{
-            margin-top: 0;
-
-            &-b20{
-                margin-top: 30px;
-                border: 1px dashed #ccc;
-            }
-        }
-        &-b{
-            margin-bottom: 0;
-        }
-
-    }
-
-/*padding-0*/
-    .p{
-        padding: 0;
-
-        &-t{
-            padding-top: 0;
-        }
-        &-b{
-            padding-bottom: 0;
-        }
-
-    }
 
 .para-quotes{
     padding-left: 40px;
@@ -227,9 +189,7 @@
     min-height: 450px;
 }
 
-.ctext{
-    color: $hr-page;
-}
+
 
 .textbox{
     width: 100px;
@@ -262,10 +222,6 @@
 
 .left-border{
     border-left: 1px dashed #ccc;
-
-}
-.inline-block{
-    display: inline-block;
 }
 
 .bottom-border{
@@ -277,6 +233,7 @@
     margin-left: 0px; 
 }
 
+<<<<<<< HEAD
 .cgreen{
     color: $main-green;
 }
@@ -304,3 +261,5 @@
 .text-cap{text-transform: capitalize;}
 
 .decoration-none{ a {text-decoration: none;} }
+=======
+>>>>>>> itinerary

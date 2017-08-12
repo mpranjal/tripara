@@ -33,278 +33,388 @@
 </div>
 
 <div class="container master-wrapper">
-    <div class="row">
-        <div class="col-lg-3 wrapper-padding-zero">
-            <div class="left-main">
-                <p class="left-main__title">we found <br> <i class="green" style="font-size: 27px; ">640</i>&nbsp;&nbsp;properties availability</p>
+  <div class="row">
+    <div class="col-lg-3 wrapper-padding-zero">
+      <div class="left-main">
+          <p class="left-main__title">we found <br> <i class="green" style="font-size: 27px; ">640</i>&nbsp;&nbsp;properties availability</p>
+      </div>
+
+      <div class="hotel-list-left">
+        <section class="hotel-list-left--section1">
+            <ul>
+                <li class="dashed"><span class="destination">Destination: </span><label class="country"> Netherlands</label></li>
+                <li>
+                <span class="has-placeholder-green" >      
+                    <input class="check textbox" type="text" placeholder="Check in &nbsp;&nbsp;&nbsp;&nbsp; &#xf073;">
+                    <input class="check textbox" type="text" placeholder="Check out &nbsp;&nbsp;&nbsp;  &#xf073;">
+                </span>
+                </li>
+                <li>
+                    <select class="h-select">
+                        <option value="">2 guest</option>
+                    </select><br>
+                </li>
+                <li>
+                    <button class="btn-search">Search <i class="fa fa-search" aria-hidden="true"></i></button>
+                </li>
+            </ul>   
+        </section>
+
+        <section class="hotel-list-left--section2">
+            <form>
+                <h3>Narrow your results</h3>
+                <form>
+                <div class="narrow-your-search">
+                    <input type="text" placeholder="Property name contains: ">
+                    <a href="javascript:"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                </form>
+            </form>
+        </section>
+
+        <section class="hotel-list-left--section">
+            <h3 class="headline-small">Star rating</h3>
+            <form>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                        </label><strong>5 Stars</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                        </label><strong>4 Stars</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                        </label><strong>3 Stars</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star"></i>
+                            <i class=" glyphicon glyphicon-star"></i>
+                        </label><strong>2 Stars</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star"></i>
+                        </label><strong>1 Stars</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label  class="starings">
+                            <i class=" glyphicon glyphicon-star-empty"></i>
+                        </label><strong>Not Rated</strong> <small class="number">12</small>
+                    </li>
+                </ul>
+            </form>
+        </section>
+
+        <section class="hotel-list-left--section hotel-list-left--section-price">
+            <h3 class="headline-small">Price<small>(per night)</small></h3>
+            <hr class="hr-bottom">
+            <div class="slider-container">
+                <div class="range-slider"></div>
+                <div class="slider-indicator">
+                    <label class="min"></label>
+                    <label class="max"></label>
+                </div>
             </div>
+        </section>
+          
+        <section class="hotel-list-left--section hotel-list-left--section-scollable">
+            <h3 class="headline-small">Hotel facilities</h3>
+            <hr class="hr-bottom"> 
+            <form>   
+                <ul>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
 
-            <div class="hotel-list-left">
-                <section class="hotel-list-left--section1">
-                    <ul>
-                        <li class="dashed"><span class="destination">Destination: </span><label class="country"> Netherlands</label></li>
-                        <li>
-                        <span class="has-placeholder-green" >      
-                            <input class="check textbox" type="text" placeholder="Check in &nbsp;&nbsp;&nbsp;&nbsp; &#xf073;">
-                            <input class="check textbox" type="text" placeholder="Check out &nbsp;&nbsp;&nbsp;  &#xf073;">
-                        </span>
-                        </li>
-                        <li>
-                            <select class="h-select">
-                                <option value="">2 guest</option>
-                            </select><br>
-                        </li>
-                        <li>
-                            <button class="btn-search">Search <i class="fa fa-search" aria-hidden="true"></i></button>
-                        </li>
-                    </ul>   
-                </section>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
 
-                <section class="hotel-list-left--section2">
-                    <form>
-                        <h3>Narrow your results</h3>
-                        <form>
-                        <div class="narrow-your-search">
-                            <input type="text" placeholder="Property name contains: ">
-                            <a href="javascript:"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        </div>
-                        </form>
-                    </form>
-                </section>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                </ul>
+            </form>
+        </section>
 
-                <section class="hotel-list-left--section">
-                    <h3 class="headline-small">Star rating</h3>
-                    <form>
-                        <ul>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                </label><strong>5 Stars</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                </label><strong>4 Stars</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                </label><strong>3 Stars</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                </label><strong>2 Stars</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                </label><strong>1 Stars</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label  class="starings">
-                                    <i class=" glyphicon glyphicon-star-empty"></i>
-                                </label><strong>Not Rated</strong> <small class="number">12</small>
-                            </li>
-                        </ul>
-                    </form>
-                </section>
+        <section class="hotel-list-left--section hotel-list-left--section-scollable">
+            <h3 class="headline-small">Area</h3>   
+            <hr class="hr-bottom"> 
+            <form>
+                <ul>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
 
-                <section class="hotel-list-left--section hotel-list-left--section-price">
-                    <h3 class="headline-small">Price<small>(per night)</small></h3>
-                    <hr class="hr-bottom">
-                    <div class="slider-container">
-                        <div class="range-slider"></div>
-                        <div class="slider-indicator">
-                            <label class="min"></label>
-                            <label class="max"></label>
-                        </div>
-                    </div>
-                </section>
-                
-                <section class="hotel-list-left--section hotel-list-left--section-scollable">
-                    <h3 class="headline-small">Hotel facilities</h3>
-                    <hr class="hr-bottom"> 
-                    <form>   
-                        <ul>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
 
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                    <li>
+                        <input type="checkbox">&nbsp;&nbsp;
+                        <strong>Swimming pool</strong> <small class="number">12</small>
+                    </li>
+                </ul>
+            </form>
+        </section>
+      </div>
+    </div>
+    <div class="col-lg-9 wrapper-padding-zero">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#Shimla">Shimla</a></li>
+            <li><a data-toggle="pill" href="#Manali">Manali</a></li>
+            <li><a data-toggle="pill" href="#menu2">Some place</a></li>
+        </ul> 
 
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                        </ul>
-                    </form>
-                </section>
+        <div class="right-main">
+            <ol class="breadcrumb right-main__breadcrumb bottom-border">
+                <li><a href="javascript:"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="javascript:">Hotels</a></li>           
+                <li><a href="javascript:">himachal</a></li>
+                <li><a href="javascript:">shimla</a></li>
+            </ol>
 
-                <section class="hotel-list-left--section hotel-list-left--section-scollable">
-                    <h3 class="headline-small">Area</h3>   
-                    <hr class="hr-bottom"> 
-                    <form>
-                        <ul>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
+            <div class="right-main__sort-by bottom-border">
+                <span style="margin-left: 10px"><strong><!-- Sort by: --></strong></span>
+                <!-- star rating -->
+               <!--  <span class="h-dropdown">
+                    <select class="h-select h-select--large h-dropdown cblack">
+                        <option value="">Star rating </option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                    </select>                       
+                </span> -->
+                <!-- guest rating -->
+                <!-- <span class="h-dropdown">
+                    <select class="h-select h-select--large  cblack">
+                        <option value="">Guest rating </option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                    </select>
+                </span> -->
+                <!-- pricing -->
+                <!-- <spna class=" h-dropdown">
+                    <select class="h-select h-select--large  cblack">
+                        <option value="">Pricing</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                        <option>some text</option>
+                    </select>
+                </span> -->
 
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
+                <span class="right-main__utility-icon">
+                    <button id="grid" class="glyphicon glyphicon-th"></button>
+                    <button id="list" class="glyphicon glyphicon-th-list"></button>
+                    <!-- <button class="glyphicon glyphicon-map-marker"></button> -->
+                </span>
+            </div>  
 
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                            <li>
-                                <input type="checkbox">&nbsp;&nbsp;
-                                <strong>Swimming pool</strong> <small class="number">12</small>
-                            </li>
-                        </ul>
-                    </form>
-                </section>
-            </div>
-        </div>
-        <div class="col-lg-9 wrapper-padding-zero">
-            <ul class="nav nav-pills">
-                <li class="active"><a data-toggle="pill" href="#Shimla">Shimla</a></li>
-                <li><a data-toggle="pill" href="#Manali">Manali</a></li>
-                <li><a data-toggle="pill" href="#menu2">Some place</a></li>
-            </ul> 
-
-            <div class="right-main">
-                <ol class="breadcrumb right-main__breadcrumb bottom-border">
-                    <li><a href="javascript:"><span class="glyphicon glyphicon-home"></span></a></li>
-                    <li><a href="javascript:">Hotels</a></li>           
-                    <li><a href="javascript:">himachal</a></li>
-                    <li><a href="javascript:">shimla</a></li>
-                </ol>
-
-                <div class="right-main__sort-by bottom-border">
-                    <span style="margin-left: 10px"><strong>Sort by:</strong></span>
-                    <!-- star rating -->
-                    <span class="h-dropdown">
-                        <select class="h-select h-select--large h-dropdown cblack">
-                            <option value="">Star rating </option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                        </select>                       
-                    </span>
-                    <!-- guest rating -->
-                    <span class="h-dropdown">
-                        <select class="h-select h-select--large  cblack">
-                            <option value="">Guest rating </option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                        </select>
-                    </span>
-                    <!-- pricing -->
-                    <spna class=" h-dropdown">
-                        <select class="h-select h-select--large  cblack">
-                            <option value="">Pricing</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                            <option>some text</option>
-                        </select>
-                    </span>
-
-                    <span class="right-main__utility-icon">
-                        <button id="grid" class="glyphicon glyphicon-th"></button>
-                        <button id="list" class="glyphicon glyphicon-th-list"></button>
-                        <button class="glyphicon glyphicon-map-marker"></button>
-                    </span>
-                </div>  
-            </div>
-            
             <div class="left-border tab-content">
                 <div id="Shimla" class="tab-pane fade in active">
+                  <main  class="row list no-padding">
+
+                    <div  class="col-lg-12 ">
+
+                      <div class="hotel-list-right">
+
+                          <div class="hotel-list-right__image">
+                              <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
+                          </div>
+                          
+                          <div class="hotel-list-right__details ">       
+                            <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
+                            <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
+                            <span  class="starings">
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>    
+                            </span>
+                            <i>some address, some address</i>  
+
+                            <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
+                            blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+
+                            <div class="hotel-list-right__offerings">
+                                <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
+                                <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div  class="col-lg-12 ">
+
+                      <div class="hotel-list-right">
+
+                          <div class="hotel-list-right__image">
+                              <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
+                          </div>
+                          
+                          <div class="hotel-list-right__details ">       
+                            <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
+                            <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
+                            <span  class="starings">
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>    
+                            </span>
+                            <i>some address, some address</i>  
+
+                            <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
+                            blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+
+                            <div class="hotel-list-right__offerings">
+                                <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
+                                <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div  class="col-lg-12 ">
+
+                      <div class="hotel-list-right">
+
+                          <div class="hotel-list-right__image">
+                              <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
+                          </div>
+                          
+                          <div class="hotel-list-right__details ">       
+                            <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
+                            <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
+                            <span  class="starings">
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>
+                                <i class=" glyphicon glyphicon-star"></i>    
+                            </span>
+                            <i>some address, some address</i>  
+
+                            <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
+                            blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+
+                            <div class="hotel-list-right__offerings">
+                                <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
+                                <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                      
+                  </main>
+                </div>   
+                <div id="Manali" class="tab-pane fade in ">
                   <main  class="row  list">
-                      <div  class="col-lg-12 ">
+                     
+                      
+                  </main>
+                </div>
+            </div>
+        </div>
+    </div>              
+  </div>
+<!-- 
+    <div class="row">
+        <div class="col-lg-12 ">
+            <div class=" tab-content">
+                <div id="Shimla" class="tab-pane fade in active">
+                  <main  class="row  list">
+                      <div  class="col-lg-12">
 
                           <div class="hotel-list-right">
 
                               <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
+                                  <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
                               </div>
                               
                               <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
+                                <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
                                 <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
                                 <span  class="starings">
                                     <i class=" glyphicon glyphicon-star"></i>
@@ -316,7 +426,7 @@
                                 <i>some address, some address</i>  
 
                                 <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+                                blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum odit quo enim dignissimos velit, totam voluptates eum eligendi, sequi assumenda accusamus consequatur autem molestiae dolorum voluptatibus fuga neque. Exercitationem. &nbsp;<a href="hotel-details.html">view all reviews</a></p>
 
                                 <div class="hotel-list-right__offerings">
                                     <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
@@ -325,16 +435,16 @@
                               </div>
                           </div>
                       </div>
-                      <div  class="col-lg-12 ">
+                      <div  class="col-lg-12">
 
                           <div class="hotel-list-right">
 
                               <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
+                                  <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
                               </div>
                               
                               <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
+                                <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
                                 <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
                                 <span  class="starings">
                                     <i class=" glyphicon glyphicon-star"></i>
@@ -346,7 +456,7 @@
                                 <i>some address, some address</i>  
 
                                 <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+                                blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum odit quo enim dignissimos velit, totam voluptates eum eligendi, sequi assumenda accusamus consequatur autem molestiae dolorum voluptatibus fuga neque. Exercitationem. &nbsp;<a href="hotel-details.html">view all reviews</a></p>
 
                                 <div class="hotel-list-right__offerings">
                                     <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
@@ -355,16 +465,16 @@
                               </div>
                           </div>
                       </div>
-                      <div  class="col-lg-12 ">
+                      <div  class="col-lg-12">
 
                           <div class="hotel-list-right">
 
                               <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
+                                  <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
                               </div>
                               
                               <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
+                                <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
                                 <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
                                 <span  class="starings">
                                     <i class=" glyphicon glyphicon-star"></i>
@@ -376,7 +486,7 @@
                                 <i>some address, some address</i>  
 
                                 <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+                                blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum odit quo enim dignissimos velit, totam voluptates eum eligendi, sequi assumenda accusamus consequatur autem molestiae dolorum voluptatibus fuga neque. Exercitationem. &nbsp;<a href="hotel-details.html">view all reviews</a></p>
 
                                 <div class="hotel-list-right__offerings">
                                     <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
@@ -385,16 +495,16 @@
                               </div>
                           </div>
                       </div>
-                      <div  class="col-lg-12 ">
+                      <div  class="col-lg-12">
 
                           <div class="hotel-list-right">
 
                               <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
+                                  <a href="hotel-details.html"><img src="assets/images/hotel-room.jpg" alt="hotel image" ></a>
                               </div>
                               
                               <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
+                                <span class="hotel-list-right__title decoration-none"><a href="" >Heady display</a></span>
                                 <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
                                 <span  class="starings">
                                     <i class=" glyphicon glyphicon-star"></i>
@@ -406,97 +516,7 @@
                                 <i>some address, some address</i>  
 
                                 <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
-
-                                <div class="hotel-list-right__offerings">
-                                    <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
-                                    <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div  class="col-lg-12 ">
-
-                          <div class="hotel-list-right">
-
-                              <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
-                              </div>
-                              
-                              <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
-                                <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
-                                <span  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>    
-                                </span>
-                                <i>some address, some address</i>  
-
-                                <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
-
-                                <div class="hotel-list-right__offerings">
-                                    <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
-                                    <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div  class="col-lg-12 ">
-
-                          <div class="hotel-list-right">
-
-                              <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
-                              </div>
-                              
-                              <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
-                                <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
-                                <span  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>    
-                                </span>
-                                <i>some address, some address</i>  
-
-                                <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
-
-                                <div class="hotel-list-right__offerings">
-                                    <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
-                                    <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div  class="col-lg-12 ">
-
-                          <div class="hotel-list-right">
-
-                              <div class="hotel-list-right__image">
-                                  <img src="assets/images/hotel-room.jpg" alt="hotel image" >
-                              </div>
-                              
-                              <div class="hotel-list-right__details ">       
-                                <span class="hotel-list-right__title">Heady display</span>
-                                <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
-                                <span  class="starings">
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>
-                                    <i class=" glyphicon glyphicon-star"></i>    
-                                </span>
-                                <i>some address, some address</i>  
-
-                                <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                                blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
+                                blah blah blah blahblah blah blah blahblah blah blah blah Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum odit quo enim dignissimos velit, totam voluptates eum eligendi, sequi assumenda accusamus consequatur autem molestiae dolorum voluptatibus fuga neque. Exercitationem. &nbsp;<a href="hotel-details.html">view all reviews</a></p>
 
                                 <div class="hotel-list-right__offerings">
                                     <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
@@ -509,74 +529,14 @@
                 </div>   
                 <div id="Manali" class="tab-pane fade in ">
                   <main  class="row  list">
-                     <div  class="col-lg-12 ">
-
-                         <div class="hotel-list-right">
-
-                             <div class="hotel-list-right__image">
-                                 <img src="assets/images/hotel-room.jpg" alt="hotel image" >
-                             </div>
-                             
-                             <div class="hotel-list-right__details ">       
-                               <span class="hotel-list-right__title">Heady display</span>
-                               <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
-                               <span  class="starings">
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>    
-                               </span>
-                               <i>some address, some address</i>  
-
-                               <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                               blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
-
-                               <div class="hotel-list-right__offerings">
-                                   <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
-                                   <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
-                               </div>
-                             </div>
-                         </div>
-                     </div>
-
-                     <div  class="col-lg-12 ">
-
-                         <div class="hotel-list-right">
-
-                             <div class="hotel-list-right__image">
-                                 <img src="assets/images/hotel-room.jpg" alt="hotel image" >
-                             </div>
-                             
-                             <div class="hotel-list-right__details ">       
-                               <span class="hotel-list-right__title">Heady display</span>
-                               <p class="hotel-list-right__reviews">Good <strong class="hotel-list-right__reviews-in-num">7.5</strong></p>  
-                               <span  class="starings">
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>
-                                   <i class=" glyphicon glyphicon-star"></i>    
-                               </span>
-                               <i>some address, some address</i>  
-
-                               <p class="hotel-list-right__description">Some loreum text that is crested for dummy reaadinf puose in mind blah blah blah blah
-                               blah blah blah blahblah blah blah blahblah blah blah blah &nbsp;<a href="hotel-details.html">view all reviews</a></p>
-
-                               <div class="hotel-list-right__offerings">
-                                   <p class="hotel-list-right__price-details">From-<span class="cost">$345</span>/night<p>
-                                   <img  src="assets/images/hotel-offerings.png" alt="hotel offerings" >
-                               </div>
-                             </div>
-                         </div>
-                     </div>
+                     
                       
                   </main>
                 </div>
             </div>
+        </div>
 
-        </div>              
-    </div>
+    </div> -->
     
 </div>
 

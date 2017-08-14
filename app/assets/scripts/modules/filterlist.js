@@ -33,13 +33,15 @@ function FilterList(){
 	   	    $('.passenger-count ').on('click', 'li', function(){
 	   	    	console.log($(this).text());
 	   	     $('#passengertype').val(this.textContent + ' passenger');
+	   	     // $('#passengertype').val(this.textContent + ' passenger').blur();
+
 	   	    });
 	   	    // console.log(a);	
 
 
 	   	})
 	   	.on('click', '.passenger-count ', function() {
-	   	   $('#passengertype').val(this.textContent).blur();
+	   	   $('#passengertype').val(this.textContent);
 	   	    
 	   	    // $('#passengertype').val(this.textContent).blur();
 	   	});

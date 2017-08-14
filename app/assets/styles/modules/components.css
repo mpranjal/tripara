@@ -202,7 +202,7 @@
 
     &-large{
         width: 150px;
-        opacity: .7;
+        /*opacity: .7;*/
         
         &r{
             width: 100%;

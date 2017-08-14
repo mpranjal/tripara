@@ -107,3 +107,100 @@
 .text-small{
 	font-size: 10px;
 }
+
+.filters{
+	
+	
+	.bootstrap-select.show-menu-arrow .dropdown-toggle:after{
+		border-left: 12px solid  transparent;
+		border-right: 12px solid  transparent;
+	    border-bottom: 12px solid #fff;
+		bottom: -22px;
+		
+		outline: none;
+	}
+
+	.bootstrap-select.show-menu-arrow .dropdown-toggle:after{
+		border-left: 12px solid  transparent;
+		border-right: 12px solid  transparent;
+	    border-bottom: 12px solid #fff;
+		bottom: -22px;
+		/*display: none;*/
+		outline: none;
+	}
+
+	
+	.bootstrap-select > .dropdown-toggle.bs-placeholder, 
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:hover, 
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:focus, 
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+	    color: #000;
+	}
+
+
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	  /**/
+	  width: 200px;
+	  /*height: 200px;*/
+	  margin-bottom: 0px;
+	  margin-left: 0px;
+	  margin-right:24px;
+	  background-color: #fff;
+	  
+
+	}
+	.bootstrap-select > .dropdown-toggle {
+
+	  padding-right: 25px;
+	  z-index: 1;
+	  /**/
+	  background: #fff;
+	  border: 0;
+	  width: 200px;
+	  height: 35px;
+	  display: inline-block;
+	}
+
+
+	.bootstrap-select > select {
+	  position: absolute ;
+	  bottom: 0;
+	  width: 0.5px ;
+	  height: 100% ;
+	  padding: 0 ;
+	  opacity: 0 ;
+	  border: none;
+	  /**/
+	  left: 50%;
+	  display: inline-block; 
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .caret {
+	 
+	  /**/
+	  display: none;
+	}
+
+	.bootstrap-select > .dropdown-toggle.bs-placeholder,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+	  color: #ccc;
+	}
+
+
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    display: inline-block;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: left;
+	    /**/
+	    font-weight: 500;
+	    color: black;
+	    
+	}
+
+	.dropdown-menu {
+	    top: 155%;
+	}
+}

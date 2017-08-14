@@ -15,12 +15,42 @@
     <link href="temp/styles/styles.css" rel="stylesheet">
 
     <style>
-        
+        .bootstrap-select.show-menu-arrow .dropdown-toggle:before {
+          content: '';
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-bottom: 7px solid rgba(204, 204, 204, 0.2);
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          display: block;
+        }
     </style>
+
 
 </head>
 <body style="background: #ccc">
     
+
+    
+        <h4>Demo:</h4>
+        <input type="text" name="datefilter" value="" />
+
+        <!-- <form class="form-horizontal" role="form">
+          <div class="form-group"> -->
+            <!-- <label for="maxOption2" class="col-lg-2 control-label">multiple, show-menu-arrow, maxOptions=2</label> -->
+
+            <!-- <div class="col-lg-10"> -->
+              <select class="selectpicker show-menu-arrow " multiple data-max-options="4" data-live-search="true" >
+                <option selected="">Select Yor destination</option>
+                <option>chicken</option>
+                <option>turkey</option>
+                <option>duck</option>
+                <option>goose</option>
+              </select>
+            <!-- </div> -->
+          <!-- </div>
+        </form> -->
 
 
 

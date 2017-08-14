@@ -1,3 +1,4 @@
+var jQuery = require("./vendors/jquery");
 var Person = require("./modules/Person");
 var GLV = require("./modules/gridlistview");
 var Functions = require("./modules/Functions");
@@ -8,7 +9,7 @@ var DatePick = require("./modules/DatePick");
 var FilterList = require("./modules/FilterList");
 var BS_Function = require("./modules/BS_Function");
 
-
+var jQuery = new jQuery();
 var bsf = new BS_Function();
 var filterList = new FilterList();
 var datepick = new DatePick();

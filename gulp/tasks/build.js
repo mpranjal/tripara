@@ -8,6 +8,10 @@ var gulp = require('gulp'),
 	// browserSync =  require('browser-sync').create();
 
 
+// gulp.task('fontsFolder',['deleteDistFolder'], function(){
+// 	return gulp.src('.app/temp/fonts')
+// 		.pipe(gulp.dest("./docs/assets"));	
+// });
 
 gulp.task('deleteDistFolder', function() {
 	return del("./docs");

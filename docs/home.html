@@ -29,16 +29,25 @@
         <form action="hotel-list.html">
           <div class="filters m-t">
           
-            <input id="destination" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Destination" >
+            <!-- <input id="destination" class="textbox textbox-large textbox-large-bg-grey " type="text" name="" placeholder="Destination" > -->
+
+            <select class="selectpicker show-menu-arrow " multiple data-max-options="4" data-live-search="true" title="Destination" data-live-search-style="begins" data-live-search-placeholder="&#xf041; Search your destination">
+              <!-- <option selected="">Select Yor destination</option> -->
+              <option>Mumbai</option>
+              <option>Delhi</option>
+              <option>Pune</option>
+              <option>Shimla</option>
+            </select>
 
             <span class="check-in-out" >      
-                <input id="start-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check in &nbsp;&nbsp;&nbsp;&nbsp; &#xf073;">
-                <input id="end-date" class="textbox textbox-large textbox-round textbox-large-bg-grey" type="text" placeholder="Check out &nbsp;&nbsp;&nbsp;  &#xf073;">
+                <input id="start-date" class="textbox textbox-large  textbox-large-bg-grey" type="text" placeholder="&#xf073;   Check in" autocomplete="off">
+                <input id="end-date" class="textbox textbox-large  textbox-large-bg-grey" type="text" placeholder=" &#xf073;   Check out " autocomplete="off">
             </span>
 
-            <input id="passengertype" class="textbox textbox-large textbox-large-bg-grey textbox-round" type="text" name="" placeholder="Passengers">
+            <input id="passengertype" class="textbox textbox-large textbox-large-bg-grey " type="text" name="" placeholder="  Passengers" autocomplete="off">
 
-            <button class="btn btn-search btn-search-round"> Search</button>
+            <button class="btn btn-search"> Search</button>
+
             <div class="form-inline package_choice" style="margin-bottom: 0px;color: white;" >
               <input id="r1" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
               <input id="r2" type="radio" name="package_choice_radio" value="fhc">&nbsp;<label for="r2">FLIGHT + HOTEL + CAR</label>&nbsp;&nbsp;
@@ -49,7 +58,7 @@
         
         <div class="filterBox">
 
-          <div id="location" class="filterBoxChild location-from" >
+         <!--  <div id="location" class="filterBoxChild location-from" >
             <ul class="list-unstyled filterBoxList liststylehover">
               <h4 class="filterBoxList-item filterBoxList-item-title">Top cities</h4>
 
@@ -77,7 +86,7 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </div> -->
           
           <div id="passenger" class="filterBoxChild passenger" >
 
@@ -99,7 +108,7 @@
               </section>
 
               <section class="filterBoxList-item">
-                <span class="filterBoxList-item-title">Children with gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <span class="filterBoxList-item-title">Children with matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
                 <ul class="list-unstyled list-inline liststylehover passenger-count">
                   <li>1</li>
                   <li>2</li>
@@ -107,11 +116,14 @@
                   <li>4</li>
                   <li>5</li>
                   <li>6</li>
+                  <li>7</li>
+                  <li>8</li>
+                  <li>9</li>
                 </ul>
               </section>
                 
               <section class="filterBoxList-item">
-                <span class="filterBoxList-item-title">Children without gaurdian </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
+                <span class="filterBoxList-item-title">Children without matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
                 <ul class="list-unstyled list-inline liststylehover passenger-count">
                   <li>1</li>
                   <li>2</li>
@@ -119,10 +131,13 @@
                   <li>4</li>
                   <li>5</li>
                   <li>6</li>
+                  <li>7</li>
+                  <li>8</li>
+                  <li>9</li>
                 </ul>
               </section>
 
-              <section class="filterBoxList-item ">
+              <!-- <section class="filterBoxList-item ">
                 <span class="filterBoxList-item-title">Infants </span><small class="text-muted text-small">(0-2 yrs)</small></lspan>
                 <ul class="list-unstyled list-inline liststylehover passenger-count">
                   <li>1</li>
@@ -132,9 +147,10 @@
                   <li>5</li>
                   <li>6</li>
                 </ul>
-              </section>
-              
-              <button class="btn-search btn-search-xsmall">Done</button> 
+              </section> -->
+              <br>
+              <button class="btn-search btn-search-xsmall">Done</button>
+              <button id="reset" class="btn-search btn-search-xsmall">Reset</button> 
             </div>
           </div>
         </div>  

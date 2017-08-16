@@ -30,7 +30,7 @@
 @import 'modules/h-carousel';
 @import 'modules/test';
 @import 'modules/index';
-/*@import 'modules/datepicker';*/
+@import 'modules/datepicker';
 @import 'modules/login';
 @import 'modules/carsearchform';
 @import 'modules/carlist';

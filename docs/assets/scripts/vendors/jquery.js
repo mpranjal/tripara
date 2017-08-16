@@ -1,3 +1,4 @@
+function jQuery(){
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
@@ -10251,3 +10252,7 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
+
+}
+
+module.exports = jQuery;

@@ -1,0 +1,117 @@
+.large-hero__text-content-reset{
+	padding-top: 0px;
+	position: absolute;
+	top: 0%;
+	transform: translateX(20%);
+	left: 0;
+	width: 55%;
+	text-align: initial;
+}
+
+.createItinearry-widgets{
+	
+	margin-top: 40px;
+	display: inline-block;
+
+
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	  /**/
+	  width: 250px;
+	  border: 1px solid #ccc;
+	  margin-bottom: 0px;
+	  margin-left: 0px;
+	  margin-right:24px;
+	  background-color: #fff;
+	}
+	.bootstrap-select > .dropdown-toggle {
+
+	  padding-right: 25px;
+	  z-index: 1;
+	  /**/
+	  background: #fff;
+	  border: 0;
+	  width: 250px;
+	  height: 35px;
+	  display: initial;
+	}
+
+
+	.bootstrap-select > select {
+	  position: absolute ;
+	  bottom: 0;
+	  width: 0.5px ;
+	  height: 100% ;
+	  padding: 0 ;
+	  opacity: 0 ;
+	  border: none;
+	  /**/
+	  left: 50%;
+	  display: inline-block; 
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .caret {
+	 
+	  /**/
+	  display: none;
+	}
+
+	.bootstrap-select > .dropdown-toggle.bs-placeholder,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+	.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+	  color: #ccc;
+	}
+
+
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    display: inline-block;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: left;
+	    /**/
+	    font-weight: 500;
+	    color: black;
+	    
+	}
+
+	.dropdown-menu {
+	    top: 100%;
+	}
+
+	.btn-lg{
+		padding: 9px 21px;
+	}
+}
+
+.pay{
+	
+	vertical-align: top;
+	
+	ul{
+		position: relative;
+		top: 10px;
+		font-size: 12px;
+		font-weight: 500;
+	}
+	table{
+		border-right: 1px solid #ccc;
+		margin-right: 50px;
+		margin-left:  10px;
+
+	}
+	li{
+
+		
+
+		&:last-child{
+			border-right: 0;
+			vertical-align: top;
+		}
+	}
+
+	td{
+		padding: 5px;
+	}
+
+	
+}

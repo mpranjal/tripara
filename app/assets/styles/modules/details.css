@@ -37,6 +37,7 @@
 }
 .no-padding{padding: 0;}
 .padding-20{padding: 50;}
+.pad-in8 {padding: 8px;}
 .padding{padding:70px 0px 100px 0px;}
 .padding-below100{	padding-bottom: 100px;}
 
@@ -62,6 +63,10 @@
 
 .margin-top15{margin-top: 15px;}
 .margin-top20{margin-top: 20px;}
+.margin-top40{margin-top: 40px;}
+.margin-bottom35{margin-bottom: 35px;}
+.margin-bottom30{margin-bottom: 30px;}
+
 .margin-topleft20{	margin: 20px 0 0 20px;}
 .margin-right20{margin-right: 20px;}
 
@@ -72,8 +77,11 @@
 .font-w900{ font-weight: 900; }
 
 .font-s12{	font-size: 12px;line-height: 1.8; }
+.font-s16{  font-size: 16px; }
 .font-s18{font-size: 18px;}
 .font-s20{font-size: 20px;}
+.font-s40{font-size: 40px;}
+
 
 
 .media-body {  width: auto; }
@@ -149,3 +157,5 @@
 .bgwhitesh{
     background: #f2f2f2;
 }
+
+.badge{border-radius: 0px;padding: 5px 7px;}

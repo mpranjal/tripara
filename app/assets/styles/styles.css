@@ -4,21 +4,17 @@
 @import 'vendors/bootstrap';
 @import 'vendors/bootstrap-theme';
 @import 'vendors/bootstrap-select';
-@import 'base/modify-bs-select';
 @import 'vendors/font-awesome';
-/*@import 'vendors/w3.css';*/
 
-/*@import '../bootstrap/css/bootstrap';*/
-/*@import '../font-awesome/css/font-awesome';*/
+@import 'base/modify-bs-select';
 @import 'base/global';
 @import 'base/variable';
 @import 'base/placeholder';
 @import 'base/mixin';
 @import 'base/bootstrap_modify';
+
 @import 'modules/large-hero';
 @import 'modules/components';
-/*@import 'modules/input-text';*/
-/*@import 'modules/btn';*/
 @import 'modules/master-wrapper';
 @import 'modules/left-main';
 @import 'modules/right-main';

@@ -13,8 +13,9 @@
   <!-- build:css assets/styles/styles.css -->
     <link href="temp/styles/styles.css" rel="stylesheet" >
   <!-- endbuild -->  
+
   <!-- build:css assets/styles/styles.css -->
-    <link rel="stylesheet" href="temp/styles/print.css" media="print" >
+    <!-- <link rel="stylesheet" href="temp/styles/print.css" media="print" > -->
   <!-- endbuild -->
 </head>
 <body style="overflow-x: hidden;background-image:url('assets/images/it-bg.png');background-repeat: repeat; " >
@@ -623,55 +624,52 @@
     </div>
   </div>  
 </div>
-</div><!-- id="html-content-holder" -->
-<div id="previewImage">
 </div>
 
 
 <script>
-window.onload = function(){
+  window.onload = function(){
 
-  document.body.style.display = 'none' ;
-
-  $(document).ready(function(){
     document.body.style.display = 'none' ;
-  });
+
+    $(document).ready(function(){
+      document.body.style.display = 'none' ;
+    });
 
 
-}
+  }
 
 
-window.onload = function(){
+  window.onload = function(){
 
-  html2canvas(document.body, {
+    html2canvas(document.body, {
 
-    onrendered: function(canvas) {
+      onrendered: function(canvas) {
 
 
 
-      document.body.prepend(canvas);
+        document.body.prepend(canvas);
 
-      var image = canvas.toDataURL("image/jpg",1.0)
-      // console.log(image)
+        // var image = canvas.toDataURL("image/jpg",1.0)
+        // console.log(image)
 
-      // var newtest = image.replace(/^data:image\/png/, "data:application/octet-stream");
+        // var newtest = image.replace(/^data:image\/png/, "data:application/octet-stream");
 
-      // $('#test').attr('href', newtest);
+        // $('#test').attr('href', newtest);
 
-      // $('#test').attr('download','Test file.jpg');
+        // $('#test').attr('download','Test file.jpg');
 
-      // $('#test')[0].click();
-    }
-        
-        
-      });
+        // $('#test')[0].click();
+      }
+          
+          
+        });
 
-}
-  
-
+  }
 </script>
 
 <!-- <span class="overlayWrapper"></span> -->
+
 <!-- build:js assets/scripts/App.js -->
 <script src="temp/scripts/App.js"></script>
 <!-- endbuild -->

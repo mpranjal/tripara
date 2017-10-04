@@ -1,0 +1,5 @@
+get all element of same class
+    if found store it in var
+        on click get the index of element and color it 
+
+

@@ -16,15 +16,23 @@
     <!-- endbuild -->
 
     <style>
-      .block {
-          /* color: red; */
-          /* font-weight:bold; */
+      .radios .radio{
+          background-color:#6684F2;
+          display:inline-block;
+          width:20px;
+          height:20px
       }
 
-      .rotated {
-          color: white;
-          font-weight:bold;
-          background: #6684F2;
+      .radios input[type=radio]{
+          display:none
+      }
+
+      label{
+        color:white;
+        text-indent: 5px;
+      }
+      .radios input[type=radio]:checked + .radio{
+          background-color:#241009
       }
     </style>
 </head>
@@ -32,7 +40,7 @@
 <body style="background: #ccc; overflow-x: hidden;">
   <div class="large-hero">
     <picture>
-      <img src="assets/images/search-bg-image-medium.jpg" class="large-hero__image">
+      <img src="assets/images/search-bg-image-medium.jpg" class="large-hero__image" style="height: 100vh">
     </picture>
 
     <div class="large-hero__text-content">
@@ -64,9 +72,9 @@
             <button class="btn btn-search"> Search</button>
 
             <div class="form-inline package_choice" style="margin-bottom: 0px;color: white;" >
-              <input id="r1" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
-              <input id="r2" type="radio" name="package_choice_radio" value="fhc">&nbsp;<label for="r2">FLIGHT + HOTEL + CAR</label>&nbsp;&nbsp;
-              <input id="r3" type="radio" name="package_choice_radio" value="hc">&nbsp;<label for="r3">HOTEL + CAR</label>
+              <input id="fh" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
+              <input id="fhc" type="radio" name="package_choice_radio" value="fhc">&nbsp;<label for="r2">FLIGHT + HOTEL + CAR</label>&nbsp;&nbsp;
+              <input id="hc" type="radio" name="package_choice_radio" value="hc">&nbsp;<label for="r3">HOTEL + CAR</label>
             </div>
           </div>
         </form>
@@ -109,46 +117,74 @@
 
               <section  class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Adult </span><small class="text-muted text-small">(+12yrs)</small></lspan>
-                <ul  class="list-unstyled list-inline liststylehover passenger-count select-number">
-                  <li class="select-number-item block">1</li>
-                  <li class="select-number-item block">2</li>
-                  <li class="select-number-item block">3</li>
-                  <li class="select-number-item block">4</li>
-                  <li class="select-number-item block">5</li>
-                  <!-- <li>6</li>
-                  <li>7</li>
-                  <li>8</li>
-                  <li>9</li> -->
+                <!-- .liststylehover removed-->
+                <ul class="list-unstyled list-inline  passenger-count">
+                  <li>
+                      <div class="radios">  
+                          <input type="radio" name="rGroup" value="1" id="adults-radio-1" />
+                          <label class="radio" for="adults-radio-1">1</label>
+                          <input type="radio" name="rGroup" value="2" id="adults-radio-2" />
+                          <label class="radio" for="adults-radio-2">2</label>
+                          <input type="radio" name="rGroup" value="3" id="adults-radio-3" />
+                          <label class="radio" for="adults-radio-3">3</label>
+                          <input type="radio" name="rGroup" value="4" id="adults-radio-4" />
+                          <label class="radio" for="adults-radio-4">4</label>
+                          <input type="radio" name="rGroup" value="5" id="adults-radio-5" />
+                          <label class="radio" for="adults-radio-5">5</label>
+                          <input type="radio" name="rGroup" value="6" id="adults-radio-6" />
+                          <label class="radio" for="adults-radio-6">6</label>
+                      </div>  
+                  </li>
                 </ul>
               </section>
 
               <section class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Children with matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
-                <ul class="list-unstyled list-inline liststylehover passenger-count">
-                  <li class="select-number-item block">1</li>
-                  <li class="select-number-item block">2</li>
-                  <li class="select-number-item block">3</li>
-                  <li class="select-number-item block">4</li>
-                  <li class="select-number-item block">5</li>
-                  <!-- <li>6</li>
-                  <li>7</li>
-                  <li>8</li>
-                  <li>9</li> -->
+                <ul class="list-unstyled list-inline passenger-count">
+                    <li>
+                        <div class="radios">  
+                            <input type="radio" name="child-w-mat-radio" value="1" id="child-w-mat-1"  />
+                            <label class="radio" for="child-w-mat-1">1</label>
+                            <input type="radio" name="child-w-mat-radio" value="2" id="child-w-mat-2" />
+                            <label class="radio" for="child-w-mat-2">2</label>
+                            <input type="radio" name="child-w-mat-radio" value="3" id="child-w-mat-3" />
+                            <label class="radio" for="child-w-mat-3">3</label>
+                            <input type="radio" name="child-w-mat-radio" value="4" id="child-w-mat-4" />
+                            <label class="radio" for="child-w-mat-4">4</label>
+                            <input type="radio" name="child-w-mat-radio" value="5" id="child-w-mat-5" />
+                            <label class="radio" for="child-w-mat-5">5</label>
+                            <input type="radio" name="child-w-mat-radio" value="6" id="child-w-mat-6" />
+                            <label class="radio" for="child-w-mat-6">6</label>
+                        </div>  
+                    </li>
+                  <!-- <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li> -->
                 </ul>
               </section>
-                
+
               <section class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Children without matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
-                <ul class="list-unstyled list-inline liststylehover passenger-count">
-                  <li class="select-number-item block">1</li>
-                  <li class="select-number-item block">2</li>
-                  <li class="select-number-item block">3</li>
-                  <li class="select-number-item block">4</li>
-                  <li class="select-number-item block">5</li>
-                  <!-- <li>6</li>
-                  <li>7</li>
-                  <li>8</li>
-                  <li>9</li> -->
+                <ul class="list-unstyled list-inline  passenger-count">
+                    <li>
+                        <div class="radios">  
+                            <input type="radio" name="child-wo-mat-radio" value="1" id="child-wo-mat-1"/>
+                            <label class="radio" for="child-wo-mat-1">1</label>
+                            <input type="radio" name="child-wo-mat-radio" value="2" id="child-wo-mat-2" />
+                            <label class="radio" for="child-wo-mat-2">2</label>
+                            <input type="radio" name="child-wo-mat-radio" value="3" id="child-wo-mat-3" />
+                            <label class="radio" for="child-wo-mat-3">3</label>
+                            <input type="radio" name="child-wo-mat-radio" value="4" id="child-wo-mat-4" />
+                            <label class="radio" for="child-wo-mat-4">4</label>
+                            <input type="radio" name="child-wo-mat-radio" value="5" id="child-wo-mat-5" />
+                            <label class="radio" for="child-wo-mat-5">5</label>
+                            <input type="radio" name="child-wo-mat-radio" value="6" id="child-wo-mat-6" />
+                            <label class="radio" for="child-wo-mat-6">6</label>
+                        </div>  
+                    </li>
                 </ul>
               </section>
 
@@ -163,9 +199,9 @@
                   <li>6</li>
                 </ul>
               </section> -->
-              <br>
-              <button class="btn-search btn-search-xsmall">Done</button>
-              <button id="reset" class="btn-search btn-search-xsmall">Reset</button> 
+              <!-- <br> -->
+              <button class="btn-search btn-search-xsmall" onclick="">Done</button>
+              <!-- <button id="reset" class="reset btn-search btn-search-xsmall" >Reset</button>  -->
             </div>
           </div>
         </div>  
@@ -177,24 +213,6 @@
 
 
 <!-- <span class="overlayWrapper"></span> -->
-
-
-<script>
-  var cards = document.querySelectorAll(".select-number-item");
-    for (var i = 0; i < cards.length; i++) {
-      var card = cards[i];
-      card.onclick = function () {
-        if (this.classList.contains("block")) {
-          this.classList.add("rotated");
-          this.classList.remove("block");
-        }
-        else {
-          this.classList.add("block");
-          this.classList.remove("rotated");
-        }
-      };
-    }
-</script>
 
 <!-- build:js assets/scripts/App.js -->
 <script src="temp/scripts/App.js"></script>

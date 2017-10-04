@@ -4,10 +4,10 @@ var $ = require('jquery');
 
 function Functions() {
 
-	$(function(){
-		var viewportHeight = $("body").innerHeight();
-		$('.large-hero__image').css("height",  viewportHeight+ 'px');
-    });
+	// $(function(){
+	// 	var viewportHeight = $("body").innerHeight();
+	// 	$('.large-hero__image').css("height",  viewportHeight+ 'px');
+    // });
 
 	$(function(){
 		$('.check').datepicker({

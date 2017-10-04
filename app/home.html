@@ -14,6 +14,19 @@
     <!-- build:css assets/styles/styles.css -->
     <link href="temp/styles/styles.css" rel="stylesheet">
     <!-- endbuild -->
+
+    <style>
+      .block {
+          /* color: red; */
+          /* font-weight:bold; */
+      }
+
+      .rotated {
+          color: white;
+          font-weight:bold;
+          background: #6684F2;
+      }
+    </style>
 </head>
 
 <body style="background: #ccc; overflow-x: hidden;">
@@ -96,46 +109,46 @@
 
               <section  class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Adult </span><small class="text-muted text-small">(+12yrs)</small></lspan>
-                <ul  class="list-unstyled list-inline liststylehover passenger-count">
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                  <li>6</li>
+                <ul  class="list-unstyled list-inline liststylehover passenger-count select-number">
+                  <li class="select-number-item block">1</li>
+                  <li class="select-number-item block">2</li>
+                  <li class="select-number-item block">3</li>
+                  <li class="select-number-item block">4</li>
+                  <li class="select-number-item block">5</li>
+                  <!-- <li>6</li>
                   <li>7</li>
                   <li>8</li>
-                  <li>9</li>
+                  <li>9</li> -->
                 </ul>
               </section>
 
               <section class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Children with matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
                 <ul class="list-unstyled list-inline liststylehover passenger-count">
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                  <li>6</li>
+                  <li class="select-number-item block">1</li>
+                  <li class="select-number-item block">2</li>
+                  <li class="select-number-item block">3</li>
+                  <li class="select-number-item block">4</li>
+                  <li class="select-number-item block">5</li>
+                  <!-- <li>6</li>
                   <li>7</li>
                   <li>8</li>
-                  <li>9</li>
+                  <li>9</li> -->
                 </ul>
               </section>
                 
               <section class="filterBoxList-item">
                 <span class="filterBoxList-item-title">Children without matress </span><small class="text-muted text-small">(2-12 yrs)</small></lspan>
                 <ul class="list-unstyled list-inline liststylehover passenger-count">
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                  <li>6</li>
+                  <li class="select-number-item block">1</li>
+                  <li class="select-number-item block">2</li>
+                  <li class="select-number-item block">3</li>
+                  <li class="select-number-item block">4</li>
+                  <li class="select-number-item block">5</li>
+                  <!-- <li>6</li>
                   <li>7</li>
                   <li>8</li>
-                  <li>9</li>
+                  <li>9</li> -->
                 </ul>
               </section>
 
@@ -166,7 +179,22 @@
 <!-- <span class="overlayWrapper"></span> -->
 
 
-
+<script>
+  var cards = document.querySelectorAll(".select-number-item");
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+      card.onclick = function () {
+        if (this.classList.contains("block")) {
+          this.classList.add("rotated");
+          this.classList.remove("block");
+        }
+        else {
+          this.classList.add("block");
+          this.classList.remove("rotated");
+        }
+      };
+    }
+</script>
 
 <!-- build:js assets/scripts/App.js -->
 <script src="temp/scripts/App.js"></script>

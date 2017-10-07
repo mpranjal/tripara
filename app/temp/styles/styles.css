@@ -15790,6 +15790,10 @@ section ul li{
 	font-size: 10px;
 }
 
+.filters a{
+  padding: 10px 4px 0 0;
+}
+
 .filters .bootstrap-select.show-menu-arrow .dropdown-toggle:after{
   border-left: 12px solid  transparent;
   border-right: 12px solid  transparent;
@@ -16959,6 +16963,48 @@ section ul li{
 
 .pay td{
   padding: 5px;
+}
+
+.search-result{
+
+	    position: fixed;
+	    top: 100px;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 1050;
+	    display: none;
+	    overflow: hidden;
+	    -webkit-overflow-scrolling: touch;
+	    outline: 0;
+	    width: 40%;
+	    margin: 0 auto;
+}
+
+.search-result table, .search-result td, .search-result th {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.search-result table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.search-result th {
+  height: 50px;
+  font-size: 18px;
+}
+
+.search-result tr {
+  height: 30px;
+  font-size: 16px;
+}
+
+.search-result .modal-footer {
+  padding: 6px 10px 7px 0;
+  text-align: right;
+  border-top: 0px solid #e5e5e5;
 }
 
 

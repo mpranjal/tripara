@@ -37,8 +37,36 @@
       }
     </style>
 </head>
-
 <body style="background: #ccc; overflow-x: hidden;">
+  <div class="modal search-result" id="SubmitSearch" data-keyboard="false" data-backdrop="static">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <table>
+          <tr>
+            <th>Destination</th>
+            <th>Km</th>
+            <th>Hrs</th>
+            <th>&nbsp;</th>
+          </tr>
+          <tr>
+            <td>Mumbai</td>
+            <td>100</td>
+            <td>15</td>
+            <td><input type="checkbox" name="" value=""></td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" type="submit" class="btn btn-primary" form="searchForm">Submit</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
   <div class="large-hero">
     <picture>
       <img src="assets/images/search-bg-image-medium.jpg" class="large-hero__image" style="height: 100vh">
@@ -50,12 +78,14 @@
         <h1 class="large-hero__title">Find your perfect trip</h1>
         <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.loreum ipsum text is here read</p>
        
-        <form action="hotel-list.html">
+        <!-- <form action="hotel-list.html"> -->
+        <form action="hotel-list.html" id="searchForm">
+
           <div class="filters m-t">
           
             <!-- <input id="destination" class="textbox textbox-large textbox-large-bg-grey " type="text" name="" placeholder="Destination" > -->
 
-            <select class="selectpicker show-menu-arrow " multiple data-max-options="4" data-live-search="true" title="Destination" data-live-search-style="begins" data-live-search-placeholder="&#xf041; Search your destination">
+            <select class="selectpicker show-menu-arrow " multiple data-max-options="4" data-live-search="true" title="Destination" data-live-search-style="begins" data-live-search-placeholder="&#xf041; Search your destination" autofocus="">
               <!-- <option selected="">Select Yor destination</option> -->
               <option>Mumbai</option>
               <option>Delhi</option>
@@ -64,13 +94,13 @@
             </select>
 
             <span class="check-in-out" >      
-                <input id="start-date" class="textbox textbox-large  textbox-large-bg-grey" type="text" placeholder="&#xf073;   Check in" autocomplete="off">
-                <input id="end-date" class="textbox textbox-large  textbox-large-bg-grey" type="text" placeholder=" &#xf073;   Check out " autocomplete="off">
+                <input id="start-date" class="textbox textbox-large textbox-large-bg-grey" type="text" placeholder="&#xf073; Check in" autocomplete="off">
+                <input id="end-date" class="textbox textbox-large textbox-large-bg-grey" type="text" placeholder=" &#xf073; Check out " autocomplete="off">
             </span>
 
             <input id="passengertype" class="textbox textbox-large textbox-large-bg-grey " type="text" name="" placeholder="  Passengers" autocomplete="off">
 
-            <button class="btn btn-search"> Search</button>
+            <a class="btn btn-search" data-toggle="modal" data-target="#SubmitSearch">Search</a>
 
             <div class="form-inline package_choice" style="margin-bottom: 0px;color: white;" >
               <input id="fh" type="radio" name="package_choice_radio" value="fh">&nbsp;<label for="r1">FLIGHT + HOTEL</label>&nbsp;&nbsp;
@@ -158,12 +188,6 @@
                             <label class="radio" for="child-w-mat-6">6</label>
                         </div>  
                     </li>
-                  <!-- <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                  <li>6</li> -->
                 </ul>
               </section>
 

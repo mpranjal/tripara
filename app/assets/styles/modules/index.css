@@ -119,7 +119,10 @@
 
 .filters{
 	
-	
+	a{
+		padding: 10px 4px 0 0;
+	}
+
 	.bootstrap-select.show-menu-arrow .dropdown-toggle:after{
 		border-left: 12px solid  transparent;
 		border-right: 12px solid  transparent;
